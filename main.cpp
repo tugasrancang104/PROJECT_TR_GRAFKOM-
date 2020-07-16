@@ -818,159 +818,7 @@ void tampil(void)
     glVertex3f(60.0, 12.0, -98.0); //kiri atas
     glEnd();
 
-    //tiang
 
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(-30.0, -19.0, 29.9);
-    glVertex3f(-32.0, -19.0, 29.9);
-    glVertex3f(-32.0, 1.0, 29.9);
-    glVertex3f(-30.0, 1.0, 29.9);
-    glEnd();
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(-30.0, -19.0, 27.9);
-    glVertex3f(-32.0, -19.0, 27.9);
-    glVertex3f(-32.0, 1.0, 27.9);
-    glVertex3f(-30.0, 1.0, 27.9);
-    glEnd();
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(-30.0, -19.0, 27.9);
-    glVertex3f(-30.0, -19.0, 29.9);
-    glVertex3f(-30.0, 1.0, 29.9);
-    glVertex3f(-30.0, 1.0, 27.9);
-    glEnd();
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(-32.0, -19.0, 27.9);
-    glVertex3f(-32.0, -19.0, 29.9);
-    glVertex3f(-32.0, 1.0, 29.9);
-    glVertex3f(-32.0, 1.0, 27.9);
-    glEnd();
-
-    //tiang
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(-30.0, -19.0, -39.9);
-    glVertex3f(-32.0, -19.0, -39.9);
-    glVertex3f(-32.0, 1.0, -39.9);
-    glVertex3f(-30.0, 1.0, -39.9);
-    glEnd();
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(-30.0, -19.0, -37.9);
-    glVertex3f(-32.0, -19.0, -37.9);
-    glVertex3f(-32.0, 1.0, -37.9);
-    glVertex3f(-30.0, 1.0, -37.9);
-    glEnd();
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(-30.0, -19.0, -37.9);
-    glVertex3f(-30.0, -19.0, -39.9);
-    glVertex3f(-30.0, 1.0, -39.9);
-    glVertex3f(-30.0, 1.0, -37.9);
-    glEnd();
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(-32.0, -19.0, -37.9);
-    glVertex3f(-32.0, -19.0, -39.9);
-    glVertex3f(-32.0, 1.0, -39.9);
-    glVertex3f(-32.0, 1.0, -37.9);
-    glEnd();
-
-//tiang
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(0.0, -19.0, 29.9);
-    glVertex3f(2.0, -19.0, 29.9);
-    glVertex3f(2.0, 1.0, 29.9);
-    glVertex3f(0.0, 1.0, 29.9);
-    glEnd();
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(0.0, -19.0, 27.9);
-    glVertex3f(2.0, -19.0, 27.9);
-    glVertex3f(2.0, 1.0, 27.9);
-    glVertex3f(0.0, 1.0, 27.9);
-    glEnd();
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(0.0, -19.0, 27.9);
-    glVertex3f(0.0, -19.0, 29.9);
-    glVertex3f(0.0, 1.0, 29.9);
-    glVertex3f(0.0, 1.0, 27.9);
-    glEnd();
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(2.0, -19.0, 27.9);
-    glVertex3f(2.0, -19.0, 29.9);
-    glVertex3f(2.0, 1.0, 29.9);
-    glVertex3f(2.0, 1.0, 27.9);
-    glEnd();
-
-    //tiang
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(0.0, -19.0, -39.9);
-    glVertex3f(2.0, -19.0, -39.9);
-    glVertex3f(2.0, 1.0, -39.9);
-    glVertex3f(0.0, 1.0, -39.9);
-    glEnd();
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(0.0, -19.0, -37.9);
-    glVertex3f(2.0, -19.0, -37.9);
-    glVertex3f(2.0, 1.0, -37.9);
-    glVertex3f(0.0, 1.0, -37.9);
-    glEnd();
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(0.0, -19.0, -37.9);
-    glVertex3f(0.0, -19.0, -39.9);
-    glVertex3f(0.0, 1.0, -39.9);
-    glVertex3f(0.0, 1.0, -37.9);
-    glEnd();
-
-    glBegin(GL_QUADS);
-    glColor3f(1.0,1.0,1.0);
-    glVertex3f(2.0, -19.0, -37.9);
-    glVertex3f(2.0, -19.0, -39.9);
-    glVertex3f(2.0, 1.0, -39.9);
-    glVertex3f(2.0, 1.0, -37.9);
-    glEnd();
-
-     //gawang
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(-33.0, -18.0, 41.1);
-    glVertex3f(-33.0, -0.0, 41.1);
-    glVertex3f(2.0, -0.0, 41.1);
-    glVertex3f(2.0, -18.0, 41.1);
-    glEnd();
-
-    //gawang
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(-33.0, -18.0, -51.1);
-    glVertex3f(-33.0, -0.0, -51.1);
-    glVertex3f(2.0, -0.0, -51.1);
-    glVertex3f(2.0, -18.0, -51.1);
-    glEnd();
 
 
     //bangku biru
@@ -1458,6 +1306,123 @@ void tampil(void)
     glVertex3f(-29.0, -4.0, 60.9);
     glEnd();
 
+
+     ///garis tengah lapangan (erits)
+   glBegin(GL_LINES);
+   glColor3f(1,1,1);
+    glVertex3f(-42.5, -19.0, 0.0);
+      glVertex3f(9.5, -19.0, 0.0);
+   glEnd();
+
+///sisi atas kotak tengah lapangan (erits)
+       glBegin(GL_LINES);
+       glColor3f(1,1,1);
+    glVertex3f(-34, -19.0, 29.0);
+    glVertex3f(3, -19.0, 29.0);
+   glEnd();
+
+
+    ///sisi atas kotak tengah lapangan (erits)
+       glBegin(GL_LINES);
+       glColor3f(1,1,1);
+    glVertex3f(-43, -19.0, -55.0);
+    glVertex3f(23, -19.0, -55.0);
+   glEnd();
+
+   ///sisi bawah kotak tengah lapangan (erits)
+       glBegin(GL_LINES);
+       glColor3f(1,1,1);
+    glVertex3f(-43, -19.0, 45.0);
+    glVertex3f(23, -19.0, 45.0);
+   glEnd();
+
+
+    ///sisi kanan kotak tengah lapangan (erits)
+       glBegin(GL_LINES);
+       glColor3f(1,1,1);
+    glVertex3f(-42,-19.0, 45.0);
+    glVertex3f(-42, -19.0, -55.0);
+   glEnd();
+
+   ///sisi kanan kotak tengah lapangan (erits)
+       glBegin(GL_LINES);
+       glColor3f(1,1,1);
+    glVertex3f(-34,-19.0, 44.3);
+    glVertex3f(-34, -19.0, 29.0);
+   glEnd();
+
+   ///sisi kiri kotak tengah lapangan (erits)
+        glBegin(GL_LINES);
+        glColor3f(1,1,1);
+    glVertex3f(9,-19.0, 45.0);
+    glVertex3f(9, -19.0, -55.0);
+   glEnd();
+
+///sisi kiri kotak tengah lapangan (erits)
+        glBegin(GL_LINES);
+        glColor3f(1,1,1);
+    glVertex3f(2.2,-19.0, 44.3);
+    glVertex3f(2.2, -19.0, 29.0);
+   glEnd();
+
+
+/// sisi bawah kotak tengah lapangan (erits)
+      glBegin(GL_LINES);
+    glVertex3f(-35, -19.0, -38.0);
+    glVertex3f(2.5, -19.0, -38.0);
+   glEnd();
+
+    ///sisi atas kotak tengah lapangan (erits)
+       glBegin(GL_LINES);
+    glVertex3f(-25, -19.0, -45.0);
+    glVertex3f(-4.5, -19.0, -45.0);
+   glEnd();
+
+
+   ///sisi atas kotak tengah lapangan (erits)
+       glBegin(GL_LINES);
+    glVertex3f(-25, -19.0, 35.0);
+    glVertex3f(-4.5, -19.0, 35.0);
+   glEnd();
+
+    ///sisi kanan kotak tengah lapangan (erits)
+       glBegin(GL_LINES);
+    glVertex3f(-5,-19.0, -45.0);
+    glVertex3f(-5, -19.0, -55.0);
+   glEnd();
+
+   ///sisi kanan kotak tengah lapangan (erits)
+       glBegin(GL_LINES);
+    glVertex3f(-5,-19.0, 35.0);
+    glVertex3f(-5, -19.0,45.0);
+   glEnd();
+
+
+
+   ///sisi kanan kotak tengah lapangan (erits)
+       glBegin(GL_LINES);
+    glVertex3f(-35,-19.0, -55.0);
+    glVertex3f(-35, -19.0, -38.0);
+   glEnd();
+
+   ///sisi kiri kotak tengah lapangan (erits)
+       glBegin(GL_LINES);
+    glVertex3f(2.5,-19.0, -55.0);
+    glVertex3f(2.5, -19.0, -38.0);
+   glEnd();
+
+   ///sisi kiri kotak tengah lapangan (erits)
+       glBegin(GL_LINES);
+    glVertex3f(-24.5,-19.0, 35.0);
+    glVertex3f(-24.5, -19.0,45.0);
+   glEnd();
+
+
+   ///sisi kiri kotak tengah lapangan (erits)
+        glBegin(GL_LINES);
+    glVertex3f(-25,-19.0, -45.0);
+    glVertex3f(-25, -19.0, -55.0);
+   glEnd();
 
 
 
