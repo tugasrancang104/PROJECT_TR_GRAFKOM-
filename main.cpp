@@ -5030,9 +5030,21 @@ glPushMatrix();
    glEnd();
 
 
+///bola
+    glPushMatrix();
+ glTranslatef(-28,-16.5,-25.0);
+ glColor3f(0.0,0.0,0.0);
+ glutWireSphere(3,25,3);
+ glPopMatrix();
 
 
-    ///bola
+ glPushMatrix();
+ glTranslatef(-28,-16.5,-25.0);
+ glColor3f(1.0,1.0,1.0);
+ glutWireSphere(2.6,25,50);
+ glPopMatrix();
+
+    ///bola tengah
     glPushMatrix();
  glTranslatef(-15,-24.5,-1.0);
  glColor3f(1.0,1.0,1.0);
@@ -5061,6 +5073,410 @@ glPushMatrix();
 		glVertex3f(x, -18.0, y);
 	}
 	glEnd();
+
+	//tiang
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, 39.9);
+    glVertex3f(-44.0, -16.0, 39.9);
+    glVertex3f(-44.0, -6.0, 39.9);
+    glVertex3f(-42.0, -6.0, 39.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, 37.9);
+    glVertex3f(-44.0, -16.0, 37.9);
+    glVertex3f(-44.0, -6.0, 37.9);
+    glVertex3f(-42.0, -6.0, 37.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, 37.9);
+    glVertex3f(-42.0, -16.0, 39.9);
+    glVertex3f(-42.0, -6.0, 39.9);
+    glVertex3f(-42.0, -6.0, 37.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-44.0, -16.0, 37.9);
+    glVertex3f(-44.0, -16.0, 39.9);
+    glVertex3f(-44.0, -6.0, 39.9);
+    glVertex3f(-44.0, -6.0, 37.9);
+    glEnd();
+//lampu
+    glPushMatrix();
+ glTranslatef(-43,-6.5,39.0);
+ glColor3f(1,1,0);
+ glutWireSphere(1.6,250,500);
+ glPopMatrix();
+
+	//tiang
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, 29.9);
+    glVertex3f(-44.0, -16.0, 29.9);
+    glVertex3f(-44.0, -6.0, 29.9);
+    glVertex3f(-42.0, -6.0, 29.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, 27.9);
+    glVertex3f(-44.0, -16.0, 27.9);
+    glVertex3f(-44.0, -6.0, 27.9);
+    glVertex3f(-42.0, -6.0, 27.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, 27.9);
+    glVertex3f(-42.0, -16.0, 29.9);
+    glVertex3f(-42.0, -6.0, 29.9);
+    glVertex3f(-42.0, -6.0, 27.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-44.0, -16.0, 27.9);
+    glVertex3f(-44.0, -16.0, 29.9);
+    glVertex3f(-44.0, -6.0, 29.9);
+    glVertex3f(-44.0, -6.0, 27.9);
+    glEnd();
+//lampu
+    glPushMatrix();
+ glTranslatef(-43,-6.5,29.0);
+ glColor3f(1,1,0);
+ glutWireSphere(1.6,250,500);
+ glPopMatrix();
+
+ //tiang
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, 19.9);
+    glVertex3f(-44.0, -16.0, 19.9);
+    glVertex3f(-44.0, -6.0, 19.9);
+    glVertex3f(-42.0, -6.0, 19.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, 17.9);
+    glVertex3f(-44.0, -16.0, 17.9);
+    glVertex3f(-44.0, -6.0, 17.9);
+    glVertex3f(-42.0, -6.0, 17.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, 17.9);
+    glVertex3f(-42.0, -16.0, 19.9);
+    glVertex3f(-42.0, -6.0, 19.9);
+    glVertex3f(-42.0, -6.0, 17.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-44.0, -16.0, 17.9);
+    glVertex3f(-44.0, -16.0, 19.9);
+    glVertex3f(-44.0, -6.0, 19.9);
+    glVertex3f(-44.0, -6.0, 17.9);
+    glEnd();
+//lampu
+    glPushMatrix();
+ glTranslatef(-43,-6.5,19.0);
+ glColor3f(1,1,0);
+ glutWireSphere(1.6,250,500);
+ glPopMatrix();
+
+ //tiang
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, 9.9);
+    glVertex3f(-44.0, -16.0, 9.9);
+    glVertex3f(-44.0, -6.0,9.9);
+    glVertex3f(-42.0, -6.0, 9.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, 7.9);
+    glVertex3f(-44.0, -16.0, 7.9);
+    glVertex3f(-44.0, -6.0,7.9);
+    glVertex3f(-42.0, -6.0, 7.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, 7.9);
+    glVertex3f(-42.0, -16.0, 9.9);
+    glVertex3f(-42.0, -6.0, 9.9);
+    glVertex3f(-42.0, -6.0, 7.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-44.0, -16.0, 7.9);
+    glVertex3f(-44.0, -16.0, 9.9);
+    glVertex3f(-44.0, -6.0, 9.9);
+    glVertex3f(-44.0, -6.0, 7.9);
+    glEnd();
+//lampu
+    glPushMatrix();
+ glTranslatef(-43,-6.5,9.0);
+ glColor3f(1,1,0);
+ glutWireSphere(1.6,250,500);
+ glPopMatrix();
+
+//tiang
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -1.9);
+    glVertex3f(-44.0, -16.0, -1.9);
+    glVertex3f(-44.0, -6.0, -1.9);
+    glVertex3f(-42.0, -6.0, -1.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -3.9);
+    glVertex3f(-44.0, -16.0, -3.9);
+    glVertex3f(-44.0, -6.0, -3.9);
+    glVertex3f(-42.0, -6.0, -3.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -3.9);
+    glVertex3f(-42.0, -16.0, -1.9);
+    glVertex3f(-42.0, -6.0, -1.9);
+    glVertex3f(-42.0, -6.0, -3.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-44.0, -16.0, -3.9);
+    glVertex3f(-44.0, -16.0, -1.9);
+    glVertex3f(-44.0, -6.0, -1.9);
+    glVertex3f(-44.0, -6.0, -3.9);
+    glEnd();
+//lampu
+    glPushMatrix();
+ glTranslatef(-43,-6.5,-3.0);
+ glColor3f(1,1,0);
+ glutWireSphere(1.6,250,500);
+ glPopMatrix();
+
+
+ //tiang
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -11.9);
+    glVertex3f(-44.0, -16.0, -11.9);
+    glVertex3f(-44.0, -6.0, -11.9);
+    glVertex3f(-42.0, -6.0, -11.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -13.9);
+    glVertex3f(-44.0, -16.0, -13.9);
+    glVertex3f(-44.0, -6.0, -13.9);
+    glVertex3f(-42.0, -6.0, -13.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -13.9);
+    glVertex3f(-42.0, -16.0, -11.9);
+    glVertex3f(-42.0, -6.0, -11.9);
+    glVertex3f(-42.0, -6.0, -13.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-44.0, -16.0, -13.9);
+    glVertex3f(-44.0, -16.0, -11.9);
+    glVertex3f(-44.0, -6.0, -11.9);
+    glVertex3f(-44.0, -6.0, -13.9);
+    glEnd();
+//lampu
+    glPushMatrix();
+ glTranslatef(-43,-6.5,-13.0);
+ glColor3f(1,1,0);
+ glutWireSphere(1.6,250,500);
+ glPopMatrix();
+
+//tiang
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -21.9);
+    glVertex3f(-44.0, -16.0, -21.9);
+    glVertex3f(-44.0, -6.0, -21.9);
+    glVertex3f(-42.0, -6.0, -21.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -23.9);
+    glVertex3f(-44.0, -16.0, -23.9);
+    glVertex3f(-44.0, -6.0, -23.9);
+    glVertex3f(-42.0, -6.0, -23.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -23.9);
+    glVertex3f(-42.0, -16.0, -21.9);
+    glVertex3f(-42.0, -6.0, -21.9);
+    glVertex3f(-42.0, -6.0, -23.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-44.0, -16.0, -23.9);
+    glVertex3f(-44.0, -16.0, -21.9);
+    glVertex3f(-44.0, -6.0, -21.9);
+    glVertex3f(-44.0, -6.0, -23.9);
+    glEnd();
+//lampu
+    glPushMatrix();
+ glTranslatef(-43,-6.5,-23.0);
+ glColor3f(1,1,0);
+ glutWireSphere(1.6,250,500);
+ glPopMatrix();
+
+
+ //tiang
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -31.9);
+    glVertex3f(-44.0, -16.0, -31.9);
+    glVertex3f(-44.0, -6.0, -31.9);
+    glVertex3f(-42.0, -6.0, -31.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -33.9);
+    glVertex3f(-44.0, -16.0, -33.9);
+    glVertex3f(-44.0, -6.0, -33.9);
+    glVertex3f(-42.0, -6.0, -33.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -33.9);
+    glVertex3f(-42.0, -16.0, -31.9);
+    glVertex3f(-42.0, -6.0, -31.9);
+    glVertex3f(-42.0, -6.0, -33.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-44.0, -16.0, -33.9);
+    glVertex3f(-44.0, -16.0, -31.9);
+    glVertex3f(-44.0, -6.0, -31.9);
+    glVertex3f(-44.0, -6.0, -33.9);
+    glEnd();
+//lampu
+    glPushMatrix();
+ glTranslatef(-43,-6.5,-33.0);
+ glColor3f(1,1,0);
+ glutWireSphere(1.6,250,500);
+ glPopMatrix();
+
+ //tiang
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -41.9);
+    glVertex3f(-44.0, -16.0, -41.9);
+    glVertex3f(-44.0, -6.0, -41.9);
+    glVertex3f(-42.0, -6.0, -41.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -43.9);
+    glVertex3f(-44.0, -16.0, -43.9);
+    glVertex3f(-44.0, -6.0, -43.9);
+    glVertex3f(-42.0, -6.0, -43.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -43.9);
+    glVertex3f(-42.0, -16.0, -41.9);
+    glVertex3f(-42.0, -6.0, -41.9);
+    glVertex3f(-42.0, -6.0, -43.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-44.0, -16.0, -43.9);
+    glVertex3f(-44.0, -16.0, -41.9);
+    glVertex3f(-44.0, -6.0, -41.9);
+    glVertex3f(-44.0, -6.0, -43.9);
+    glEnd();
+//lampu
+    glPushMatrix();
+ glTranslatef(-43,-6.5,-43.0);
+ glColor3f(1,1,0);
+ glutWireSphere(1.6,250,500);
+ glPopMatrix();
+
+
+ //tiang
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -51.9);
+    glVertex3f(-44.0, -16.0, -51.9);
+    glVertex3f(-44.0, -6.0, -51.9);
+    glVertex3f(-42.0, -6.0, -51.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -53.9);
+    glVertex3f(-44.0, -16.0, -53.9);
+    glVertex3f(-44.0, -6.0, -53.9);
+    glVertex3f(-42.0, -6.0, -53.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-42.0, -16.0, -53.9);
+    glVertex3f(-42.0, -16.0, -51.9);
+    glVertex3f(-42.0, -6.0, -51.9);
+    glVertex3f(-42.0, -6.0, -53.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-44.0, -16.0, -53.9);
+    glVertex3f(-44.0, -16.0, -51.9);
+    glVertex3f(-44.0, -6.0, -51.9);
+    glVertex3f(-44.0, -6.0, -53.9);
+    glEnd();
+//lampu
+    glPushMatrix();
+ glTranslatef(-43,-6.5,-53.0);
+ glColor3f(1,1,0);
+ glutWireSphere(1.6,250,500);
+ glPopMatrix();
+
 
 
  glutSwapBuffers();
