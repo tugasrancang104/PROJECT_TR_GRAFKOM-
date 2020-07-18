@@ -47,10 +47,37 @@ void init(void)
 void tampil(void)
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    GLfloat x = 0.0; GLfloat y = 50.0; GLfloat angle_stepsize = 3.0; GLfloat height = 50.0; GLfloat radius = -90.0; GLfloat jumlah_titik = 20;
 
     glPushMatrix();
 
 
+//lapangan lain
+    glBegin(GL_QUADS);
+    glColor3f(0,0.5,0);
+    glVertex3f(-42.0, -19.9, 45.0); //kiri bawah
+    glVertex3f(9.0, -19.9, 45.0); //kanan bawah
+    glVertex3f(9.0, -19.9, 25.0); //kanan atas
+    glVertex3f(-42.0, -19.9, 25.0); //kiri atas
+    glEnd();
+
+    //lapangan lain
+    glBegin(GL_QUADS);
+    glColor3f(0,0.5,0);
+    glVertex3f(-42.0, -19.9, 15.0); //kiri bawah
+    glVertex3f(9.0, -19.9, 15.0); //kanan bawah
+    glVertex3f(9.0, -19.9, -15.0); //kanan atas
+    glVertex3f(-42.0, -19.9, -15.0); //kiri atas
+    glEnd();
+
+    //lapangan lain
+    glBegin(GL_QUADS);
+    glColor3f(0,0.5,0);
+    glVertex3f(-42.0, -19.9, -30.0); //kiri bawah
+    glVertex3f(9.0, -19.9, -30.0); //kanan bawah
+    glVertex3f(9.0, -19.9, -55.0); //kanan atas
+    glVertex3f(-42.0, -19.9, -55.0); //kiri atas
+    glEnd();
 
    //lantai atas
     glBegin(GL_QUADS);
@@ -59,33 +86,6 @@ void tampil(void)
     glVertex3f(10.0, -20.0, 45.0); //kanan bawah
     glVertex3f(10.0, -20.0, -55.0); //kanan atas
     glVertex3f(-43.0, -20.0, -55.0); //kiri atas
-    glEnd();
-
-    //lapangan lain
-    glBegin(GL_QUADS);
-    glColor3f(0,0.5,0);
-    glVertex3f(-42.0, -19.0, 45.0); //kiri bawah
-    glVertex3f(9.0, -19.0, 45.0); //kanan bawah
-    glVertex3f(9.0, -19.0, 25.0); //kanan atas
-    glVertex3f(-42.0, -19.0, 25.0); //kiri atas
-    glEnd();
-
-    //lapangan lain
-    glBegin(GL_QUADS);
-    glColor3f(0,0.5,0);
-    glVertex3f(-42.0, -19.0, 15.0); //kiri bawah
-    glVertex3f(9.0, -19.0, 15.0); //kanan bawah
-    glVertex3f(9.0, -19.0, -15.0); //kanan atas
-    glVertex3f(-42.0, -19.0, -15.0); //kiri atas
-    glEnd();
-
-    //lapangan lain
-    glBegin(GL_QUADS);
-    glColor3f(0,0.5,0);
-    glVertex3f(-42.0, -19.0, -30.0); //kiri bawah
-    glVertex3f(9.0, -19.0, -30.0); //kanan bawah
-    glVertex3f(9.0, -19.0, -55.0); //kanan atas
-    glVertex3f(-42.0, -19.0, -55.0); //kiri atas
     glEnd();
 
     //lantaibawah
@@ -966,7 +966,7 @@ void tampil(void)
     glVertex3f(-90.0, -25.0, -87.0); //kiri atas
     glEnd();
 
-    ///bangku kanan 4
+    ///bangku kanan 3
 
     //bangku kiri
     glBegin(GL_QUADS);
@@ -5030,11 +5030,20 @@ glPushMatrix();
    glEnd();
 
 
-   ///new 1/2 lingkaran
-    int i, jumlah_titik;
+
+
+    ///bola
+    glPushMatrix();
+ glTranslatef(-15,-24.5,-1.0);
+ glColor3f(1.0,1.0,1.0);
+ glutWireSphere(9,20,50);
+ glPopMatrix();
+
+ ///new 1/2 lingkaran
+    int i;
    glColor3f(1, 1, 1);
 	glBegin(GL_LINE_STRIP);
-	int radiusss = -4, x_tengaaah = -15, y_tengaaah = 29;
+	int radiusss = -7, x_tengaaah = -15, y_tengaaah = 29;
 	for (i = 0; i <= jumlah_titik - 10; i++) {
 		float sudut = i * (2 * Pi / jumlah_titik);
 		float x = x_tengaaah + radiusss * cos(sudut);
@@ -5053,15 +5062,6 @@ glPushMatrix();
 	}
 	glEnd();
 
-
-
-
-    ///bola
-    glPushMatrix();
- glTranslatef(-15,-24.5,-1.0);
- glColor3f(1.0,1.0,1.0);
- glutWireSphere(9,20,50);
- glPopMatrix();
 
  glutSwapBuffers();
 }
