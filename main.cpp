@@ -5618,6 +5618,393 @@ glPushMatrix();
  glutWireSphere(1.6,250,500);
  glPopMatrix();
 
+ ///bendera
+
+    //tiang depan
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0);
+    glVertex3f(-43.0, -10.0, 53.0); //kiri bawah
+    glVertex3f(-43.0, 30.0, 53.0); //kanan bawah
+    glVertex3f(-46.0, 30.0, 53.0); //kanan atas
+    glVertex3f(-46.0, -10.0, 53.0); //kiri atas
+    glEnd();
+
+    //tiang blkng
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0);
+    glVertex3f(-43.0, -10.0, 56.0); //kiri bawah
+    glVertex3f(-43.0, 30.0, 56.0); //kanan bawah
+    glVertex3f(-46.0, 30.0, 56.0); //kanan atas
+    glVertex3f(-46.0, -10.0, 56.0); //kiri atas
+    glEnd();
+
+    //tiang kanan
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0);
+    glVertex3f(-46.0, -10.0, 53.0); //kiri bawah
+    glVertex3f(-46.0, 30.0, 53.0); //kanan bawah
+    glVertex3f(-46.0, 30.0, 56.0); //kanan atas
+    glVertex3f(-46.0, -10.0, 56.0); //kiri atas
+    glEnd();
+
+    //tiang kiri
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0);
+    glVertex3f(-43.0, -10.0, 53.0); //kiri bawah
+    glVertex3f(-43.0, 30.0, 53.0); //kanan bawah
+    glVertex3f(-43.0, 30.0, 56.0); //kanan atas
+    glVertex3f(-43.0, -10.0, 56.0); //kiri atas
+    glEnd();
+
+    //bawah bendera 1
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0.5);
+    glVertex3f(-50.0, 30.0, 53.0); //kiri bawah
+    glVertex3f(-43.0, 30.0, 53.0); //kanan bawah
+    glVertex3f(-43.0, 30.0, 56.0); //kanan atas
+    glVertex3f(-50.0, 30.0, 56.0); //kiri atas
+    glEnd();
+
+    //bawah bendera 2
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-57.0, 30.0, 53.0); //kiri bawah
+    glVertex3f(-50.0, 30.0, 53.0); //kanan bawah
+    glVertex3f(-50.0, 30.0, 56.0); //kanan atas
+    glVertex3f(-57.0, 30.0, 56.0); //kiri atas
+    glEnd();
+
+    //bawah bendera 3
+    glBegin(GL_QUADS);
+    glColor3f(1,0,0);
+    glVertex3f(-64.0, 30.0, 53.0); //kiri bawah
+    glVertex3f(-57.0, 30.0, 53.0); //kanan bawah
+    glVertex3f(-57.0, 30.0, 56.0); //kanan atas
+    glVertex3f(-64.0, 30.0, 56.0); //kiri atas
+    glEnd();
+
+    //atas bendera 1
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0.5);
+    glVertex3f(-50.0, 40.0, 53.0); //kiri bawah
+    glVertex3f(-43.0, 40.0, 53.0); //kanan bawah
+    glVertex3f(-43.0, 40.0, 56.0); //kanan atas
+    glVertex3f(-50.0, 40.0, 56.0); //kiri atas
+    glEnd();
+
+    //bawah bendera 2
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-57.0, 40.0, 53.0); //kiri bawah
+    glVertex3f(-50.0, 40.0, 53.0); //kanan bawah
+    glVertex3f(-50.0, 40.0, 56.0); //kanan atas
+    glVertex3f(-57.0, 40.0, 56.0); //kiri atas
+    glEnd();
+
+    //bawah bendera 3
+    glBegin(GL_QUADS);
+    glColor3f(1,0,0);
+    glVertex3f(-64.0, 40.0, 53.0); //kiri bawah
+    glVertex3f(-57.0, 40.0, 53.0); //kanan bawah
+    glVertex3f(-57.0, 40.0, 56.0); //kanan atas
+    glVertex3f(-64.0, 40.0, 56.0); //kiri atas
+    glEnd();
+
+    //biru blkng
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0.5);
+    glVertex3f(-50.0, 30.0, 56.0); //kiri bawah
+    glVertex3f(-50.0, 40.0, 56.0); //kanan bawah
+    glVertex3f(-43.0, 40.0, 56.0); //kanan atas
+    glVertex3f(-43.0, 30.0, 56.0); //kiri atas
+    glEnd();
+
+    //biru depan
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0.5);
+    glVertex3f(-50.0, 30.0, 53.0); //kiri bawah
+    glVertex3f(-50.0, 40.0, 53.0); //kanan bawah
+    glVertex3f(-43.0, 40.0, 53.0); //kanan atas
+    glVertex3f(-43.0, 30.0, 53.0); //kiri atas
+    glEnd();
+
+    //putih blkng
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-57.0, 30.0, 56.0); //kiri bawah
+    glVertex3f(-57.0, 40.0, 56.0); //kanan bawah
+    glVertex3f(-50.0, 40.0, 56.0); //kanan atas
+    glVertex3f(-50.0, 30.0, 56.0); //kiri atas
+    glEnd();
+
+    //putih dpn
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-57.0, 30.0, 53.0); //kiri bawah
+    glVertex3f(-57.0, 40.0, 53.0); //kanan bawah
+    glVertex3f(-50.0, 40.0, 53.0); //kanan atas
+    glVertex3f(-50.0, 30.0, 53.0); //kiri atas
+    glEnd();
+
+    //merah blkng
+    glBegin(GL_QUADS);
+    glColor3f(1,0,0);
+    glVertex3f(-57.0, 30.0, 56.0); //kiri bawah
+    glVertex3f(-57.0, 40.0, 56.0); //kanan bawah
+    glVertex3f(-64.0, 40.0, 56.0); //kanan atas
+    glVertex3f(-64.0, 30.0, 56.0); //kiri atas
+    glEnd();
+
+    //merah blkng
+    glBegin(GL_QUADS);
+    glColor3f(1,0,0);
+    glVertex3f(-57.0, 30.0, 53.0); //kiri bawah
+    glVertex3f(-57.0, 40.0, 53.0); //kanan bawah
+    glVertex3f(-64.0, 40.0, 53.0); //kanan atas
+    glVertex3f(-64.0, 30.0, 53.0); //kiri atas
+    glEnd();
+
+    //biru kiri
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0.5);
+    glVertex3f(-43.0, 40.0, 53.0); //kiri bawah
+    glVertex3f(-43.0, 30.0, 53.0); //kanan bawah
+    glVertex3f(-43.0, 30.0, 56.0); //kanan atas
+    glVertex3f(-43.0, 40.0, 56.0); //kiri atas
+    glEnd();
+
+    //merah kanan
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0.5);
+    glVertex3f(-64.0, 40.0, 53.0); //kiri bawah
+    glVertex3f(-64.0, 30.0, 53.0); //kanan bawah
+    glVertex3f(-64.0, 30.0, 56.0); //kanan atas
+    glVertex3f(-64.0, 40.0, 56.0); //kiri atas
+    glEnd();
+
+
+
+
+
+    ///tiang lampu
+
+    //tiang depan
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0);
+    glVertex3f(10.0, -10.0, 53.0); //kiri bawah
+    glVertex3f(10.0, 35.0, 53.0); //kanan bawah
+    glVertex3f(15.0, 35.0, 53.0); //kanan atas
+    glVertex3f(15.0, -10.0, 53.0); //kiri atas
+    glEnd();
+
+    //tiang blkng
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0);
+    glVertex3f(10.0, -10.0, 57.0); //kiri bawah
+    glVertex3f(10.0, 35.0, 57.0); //kanan bawah
+    glVertex3f(15.0, 35.0, 57.0); //kanan atas
+    glVertex3f(15.0, -10.0, 57.0); //kiri atas
+    glEnd();
+
+    //tiang kanan
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0);
+    glVertex3f(15.0, -10.0, 53.0); //kiri bawah
+    glVertex3f(15.0, 35.0, 53.0); //kanan bawah
+    glVertex3f(15.0, 35.0, 57.0); //kanan atas
+    glVertex3f(15.0, -10.0, 57.0); //kiri atas
+    glEnd();
+
+    //tiang kiri
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0);
+    glVertex3f(10.0, -10.0, 53.0); //kiri bawah
+    glVertex3f(10.0, 35.0, 53.0); //kanan bawah
+    glVertex3f(10.0, 35.0, 57.0); //kanan atas
+    glVertex3f(10.0, -10.0, 57.0); //kiri atas
+    glEnd();
+
+    //bawah lampu
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(-5.0, 35.0, 50.0); //kiri bawah
+    glVertex3f(25.0, 35.0, 50.0); //kanan bawah
+    glVertex3f(25.0, 35.0, 57.0); //kanan atas
+    glVertex3f(-5.0, 35.0, 57.0); //kiri atas
+    glEnd();
+
+    //atas lampu
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(-5.0, 45.0, 50.0); //kiri bawah
+    glVertex3f(25.0, 45.0, 50.0); //kanan bawah
+    glVertex3f(25.0, 45.0, 57.0); //kanan atas
+    glVertex3f(-5.0, 45.0, 57.0); //kiri atas
+    glEnd();
+
+    //lampu kiri
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(-5.0, 45.0, 50.0); //kiri bawah
+    glVertex3f(-5.0, 35.0, 50.0); //kanan bawah
+    glVertex3f(-5.0, 35.0, 57.0); //kanan atas
+    glVertex3f(-5.0, 45.0, 57.0); //kiri atas
+    glEnd();
+
+    //lampu kanan
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(25.0, 45.0, 50.0); //kiri bawah
+    glVertex3f(25.0, 35.0, 50.0); //kanan bawah
+    glVertex3f(25.0, 35.0, 57.0); //kanan atas
+    glVertex3f(25.0, 45.0, 57.0); //kiri atas
+    glEnd();
+
+    //lampu blkng
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(-5.0, 35.0, 57.0); //kiri bawah
+    glVertex3f(-5.0, 45.0, 57.0); //kanan bawah
+    glVertex3f(25.0, 45.0, 57.0); //kanan atas
+    glVertex3f(25.0, 35.0, 57.0); //kiri atas
+    glEnd();
+
+    //lampu 1
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-5.0, 43.0, 50.0); //kiri bawah
+    glVertex3f(-5.0, 44.0, 50.0); //kanan bawah
+    glVertex3f(25.0, 44.0, 50.0); //kanan atas
+    glVertex3f(25.0, 43.0, 50.0); //kiri atas
+    glEnd();
+
+    //lampu 2
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-5.0, 40.0, 50.0); //kiri bawah
+    glVertex3f(-5.0, 41.0, 50.0); //kanan bawah
+    glVertex3f(25.0, 41.0, 50.0); //kanan atas
+    glVertex3f(25.0, 40.0, 50.0); //kiri atas
+    glEnd();
+
+    //lampu 3
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-5.0, 37.0, 50.0); //kiri bawah
+    glVertex3f(-5.0, 38.0, 50.0); //kanan bawah
+    glVertex3f(25.0, 38.0, 50.0); //kanan atas
+    glVertex3f(25.0, 37.0, 50.0); //kiri atas
+    glEnd();
+
+    ///lampu blkng
+    //tiang depan
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0);
+    glVertex3f(-35.0, -10.0, -57.0); //kiri bawah
+    glVertex3f(-35.0, 35.0, -57.0); //kanan bawah
+    glVertex3f(-40.0, 35.0, -57.0); //kanan atas
+    glVertex3f(-40.0, -10.0, -57.0); //kiri atas
+    glEnd();
+
+    //tiang depan
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0);
+    glVertex3f(-35.0, -10.0, -60.0); //kiri bawah
+    glVertex3f(-35.0, 35.0, -60.0); //kanan bawah
+    glVertex3f(-40.0, 35.0, -60.0); //kanan atas
+    glVertex3f(-40.0, -10.0, -60.0); //kiri atas
+    glEnd();
+
+    //tiang kiri
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0);
+    glVertex3f(-40.0, -10.0, -60.0); //kiri bawah
+    glVertex3f(-40.0, 35.0, -60.0); //kanan bawah
+    glVertex3f(-40.0, 35.0, -57.0); //kanan atas
+    glVertex3f(-40.0, -10.0, -57.0); //kiri atas
+    glEnd();
+
+    //tiang kanan
+    glBegin(GL_QUADS);
+    glColor3f(0,0,0);
+    glVertex3f(-35.0, -10.0, -60.0); //kiri bawah
+    glVertex3f(-35.0, 35.0, -60.0); //kanan bawah
+    glVertex3f(-35.0, 35.0, -57.0); //kanan atas
+    glVertex3f(-35.0, -10.0, -57.0); //kiri atas
+    glEnd();
+
+    //bawah lampu
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(-25.0, 35.0, -60.0); //kiri bawah
+    glVertex3f(-50.0, 35.0, -60.0); //kanan bawah
+    glVertex3f(-50.0, 35.0, -57.0); //kanan atas
+    glVertex3f(-25.0, 35.0, -57.0); //kiri atas
+    glEnd();
+
+    //atas lampu
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(-25.0, 45.0, -60.0); //kiri bawah
+    glVertex3f(-50.0, 45.0, -60.0); //kanan bawah
+    glVertex3f(-50.0, 45.0, -57.0); //kanan atas
+    glVertex3f(-25.0, 45.0, -57.0); //kiri atas
+    glEnd();
+
+    //lampu blkng
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(-25.0, 35.0, -60.0); //kiri bawah
+    glVertex3f(-25.0, 45.0, -60.0); //kanan bawah
+    glVertex3f(-50.0, 45.0, -60.0); //kanan atas
+    glVertex3f(-50.0, 35.0, -60.0); //kiri atas
+    glEnd();
+
+    //lampu kanan
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(-25.0, 45.0, -60.0); //kiri bawah
+    glVertex3f(-25.0, 35.0, -60.0); //kanan bawah
+    glVertex3f(-25.0, 35.0, -57.0); //kanan atas
+    glVertex3f(-25.0, 45.0, -57.0); //kiri atas
+    glEnd();
+
+    //lampu kiri
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(-50.0, 45.0, -60.0); //kiri bawah
+    glVertex3f(-50.0, 35.0, -60.0); //kanan bawah
+    glVertex3f(-50.0, 35.0, -57.0); //kanan atas
+    glVertex3f(-50.0, 45.0, -57.0); //kiri atas
+    glEnd();
+
+    //lampu 1
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-25.0, 43.0, -57.0); //kiri bawah
+    glVertex3f(-25.0, 44.0, -57.0); //kanan bawah
+    glVertex3f(-50.0, 44.0, -57.0); //kanan atas
+    glVertex3f(-50.0, 43.0, -57.0); //kiri atas
+    glEnd();
+
+    //lampu 2
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-25.0, 40.0, -57.0); //kiri bawah
+    glVertex3f(-25.0, 41.0, -57.0); //kanan bawah
+    glVertex3f(-50.0, 41.0, -57.0); //kanan atas
+    glVertex3f(-50.0, 40.0, -57.0); //kiri atas
+    glEnd();
+
+    //lampu 3
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-25.0, 37.0, -57.0); //kiri bawah
+    glVertex3f(-25.0, 38.0, -57.0); //kanan bawah
+    glVertex3f(-50.0, 38.0, -57.0); //kanan atas
+    glVertex3f(-50.0, 37.0, -57.0); //kiri atas
+    glEnd();
+
 
 
  glutSwapBuffers();
