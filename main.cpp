@@ -5034,22 +5034,148 @@ glPushMatrix();
     glPushMatrix();
  glTranslatef(-28,-16.5,-25.0);
  glColor3f(0.0,0.0,0.0);
- glutWireSphere(3,25,3);
+ glutWireSphere(2,25,3);
  glPopMatrix();
 
 
  glPushMatrix();
  glTranslatef(-28,-16.5,-25.0);
  glColor3f(1.0,1.0,1.0);
- glutWireSphere(2.6,25,50);
+ glutWireSphere(1.6,25,50);
  glPopMatrix();
 
-    ///bola tengah
-    glPushMatrix();
- glTranslatef(-15,-24.5,-1.0);
- glColor3f(1.0,1.0,1.0);
- glutWireSphere(9,20,50);
+ ///orang
+ glPushMatrix();
+ glTranslatef(-18,-16.5,-25.0);
+ glColor3f(1,0,0);
+ glutWireSphere(3.0,300,500);
  glPopMatrix();
+
+ glPushMatrix();
+ glTranslatef(-18,-10.5,-25.0);
+ glColor3f(1,0,0);
+ glutWireSphere(2.0,400,800);
+ glPopMatrix();
+
+ ///orang
+ glPushMatrix();
+ glTranslatef(-18,-16.5,-45.0);
+ glColor3f(1,0,0);
+ glutWireSphere(3.0,300,500);
+ glPopMatrix();
+
+ glPushMatrix();
+ glTranslatef(-18,-10.5,-45.0);
+ glColor3f(1,0,0);
+ glutWireSphere(2.0,400,800);
+ glPopMatrix();
+
+///orang
+ glPushMatrix();
+ glTranslatef(-8,-16.5,-5.0);
+ glColor3f(1,0,0);
+ glutWireSphere(3.0,300,500);
+ glPopMatrix();
+
+ glPushMatrix();
+ glTranslatef(-8,-10.5,-5.0);
+ glColor3f(1,0,0);
+ glutWireSphere(2.0,400,800);
+ glPopMatrix();
+
+ ///orang
+ glPushMatrix();
+ glTranslatef(6,-16.5,-5.0);
+ glColor3f(1,0,0);
+ glutWireSphere(3.0,300,500);
+ glPopMatrix();
+
+ glPushMatrix();
+ glTranslatef(6,-10.5,-5.0);
+ glColor3f(1,0,0);
+ glutWireSphere(2.0,400,800);
+ glPopMatrix();
+
+ ///orang
+ glPushMatrix();
+ glTranslatef(-36,-16.5,-5.0);
+ glColor3f(1,0,0);
+ glutWireSphere(3.0,300,500);
+ glPopMatrix();
+
+ glPushMatrix();
+ glTranslatef(-36,-10.5,-5.0);
+ glColor3f(1,0,0);
+ glutWireSphere(2.0,400,800);
+ glPopMatrix();
+
+ ///orang
+ glPushMatrix();
+ glTranslatef(-18,-16.5,15.0);
+ glColor3f(1,0.5,0);
+ glutWireSphere(3.0,300,500);
+ glPopMatrix();
+
+ glPushMatrix();
+ glTranslatef(-18,-10.5,15.0);
+ glColor3f(1,0.5,0);
+ glutWireSphere(2.0,400,800);
+ glPopMatrix();
+
+///orang
+ glPushMatrix();
+ glTranslatef(-27,-16.5,-18.0);
+ glColor3f(1,0.5,0);
+ glutWireSphere(3.0,300,500);
+ glPopMatrix();
+
+ glPushMatrix();
+ glTranslatef(-27,-10.5,-18.0);
+ glColor3f(1,0.5,0);
+ glutWireSphere(2.0,400,800);
+ glPopMatrix();
+
+
+ ///orang
+ glPushMatrix();
+ glTranslatef(-30,-16.5,12.0);
+ glColor3f(1,0.5,0);
+ glutWireSphere(3.0,300,500);
+ glPopMatrix();
+
+ glPushMatrix();
+ glTranslatef(-30,-10.5,12.0);
+ glColor3f(1,0.5,0);
+ glutWireSphere(2.0,400,800);
+ glPopMatrix();
+
+
+ ///orang
+ glPushMatrix();
+ glTranslatef(5,-16.5,-13.0);
+ glColor3f(1,0.5,0);
+ glutWireSphere(3.0,300,500);
+ glPopMatrix();
+
+ glPushMatrix();
+ glTranslatef(5,-10.5,-13.0);
+ glColor3f(1,0.5,0);
+ glutWireSphere(2.0,400,800);
+ glPopMatrix();
+
+ ///orang
+ glPushMatrix();
+ glTranslatef(-20,-16.5,28.0);
+ glColor3f(1,0.5,0);
+ glutWireSphere(3.0,300,500);
+ glPopMatrix();
+
+ glPushMatrix();
+ glTranslatef(-20,-10.5,28.0);
+ glColor3f(1,0.5,0);
+ glutWireSphere(2.0,400,800);
+ glPopMatrix();
+
 
  ///new 1/2 lingkaran
     int i;
@@ -5065,14 +5191,29 @@ glPushMatrix();
 	glEnd();
 	glColor3f(1.0, 1.0, 1.0);
 	glBegin(GL_LINE_STRIP);
-	int x_tengaaahh = -15, y_tengaaahh = -38.1;
-	for (i =10 ; i <= jumlah_titik + 0; i++) {
+	int x_tengaaahh = -15, y_tengaaahh = 0.1;
+	for (i =10 ; i <= 360+ 0; i++) {
 		float sudut = i * (2 * Pi / jumlah_titik);
 		float x = x_tengaaahh + radiusss * cos(sudut);
 		float y = y_tengaaahh + radiusss * sin(sudut);
 		glVertex3f(x, -18.0, y);
 	}
 	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_LINE_STRIP);
+	int a_tengaaahh = -15, b_tengaaahh = -38.1;
+	for (i =10 ; i <= jumlah_titik+ 0; i++) {
+		float sudut = i * (2 * Pi / jumlah_titik);
+		float x = a_tengaaahh + radiusss * cos(sudut);
+		float y = b_tengaaahh + radiusss * sin(sudut);
+		glVertex3f(x, -18.0, y);
+	}
+	glEnd();
+
+
+
+
 
 	//tiang
 
