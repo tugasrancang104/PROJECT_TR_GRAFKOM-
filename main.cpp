@@ -1,3 +1,4 @@
+
 #include <windows.h>
 #ifdef APPLE
 #include <GLUT/glut.h>
@@ -137,10 +138,10 @@ void tampil(void)
 
     ///bangku kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(11.0, -25.0, 57.0); //kiri bawah
-    glVertex3f(11.0, -10.0, 57.0); //kanan bawah
-    glVertex3f(11.0, -10.0, -67.0); //kanan atas
+    glVertex3f(11.0, -15.0, 57.0); //kanan bawah
+    glVertex3f(11.0, -15.0, -67.0); //kanan atas
     glVertex3f(11.0, -25.0, -67.0); //kiri atas
     glEnd();
 
@@ -148,8 +149,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
     glVertex3f(24.0, -25.0, 57.0); //kiri bawah
-    glVertex3f(24.0, -10.0, 57.0); //kanan bawah
-    glVertex3f(24.0, -10.0, -67.0); //kanan atas
+    glVertex3f(24.0, -15.0, 57.0); //kanan bawah
+    glVertex3f(24.0, -15.0, -67.0); //kanan atas
     glVertex3f(24.0, -25.0, -67.0); //kiri atas
     glEnd();
 
@@ -157,8 +158,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
     glVertex3f(24.0, -25.0, 57.0); //kiri bawah
-    glVertex3f(24.0, -10.0, 57.0); //kanan bawah
-    glVertex3f(11.0, -10.0, 57.0); //kanan atas
+    glVertex3f(24.0, -15.0, 57.0); //kanan bawah
+    glVertex3f(11.0, -15.0, 57.0); //kanan atas
     glVertex3f(11.0, -25.0, 57.0); //kiri atas
     glEnd();
 
@@ -166,8 +167,8 @@ void tampil(void)
      glBegin(GL_QUADS);
     glColor3f(1,1,1);
     glVertex3f(24.0, -25.0, -67.0); //kiri bawah
-    glVertex3f(24.0, -10.0, -67.0); //kanan bawah
-    glVertex3f(11.0, -10.0, -67.0); //kanan atas
+    glVertex3f(24.0, -15.0, -67.0); //kanan bawah
+    glVertex3f(11.0, -15.0, -67.0); //kanan atas
     glVertex3f(11.0, -25.0, -67.0); //kiri atas
     glEnd();
 
@@ -183,10 +184,10 @@ void tampil(void)
     ///atas bangku
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
-    glVertex3f(24.0, -10.0, 57.0); //kiri bawah
-    glVertex3f(11.0, -10.0, 57.0); //kanan bawah
-    glVertex3f(11.0, -10.0, -67.0); //kanan atas
-    glVertex3f(24.0, -10.0, -67.0); //kiri atas
+    glVertex3f(24.0, -15.0, 57.0); //kiri bawah
+    glVertex3f(11.0, -15.0, 57.0); //kanan bawah
+    glVertex3f(11.0, -15.0, -67.0); //kanan atas
+    glVertex3f(24.0, -15.0, -67.0); //kiri atas
     glEnd();
 
     ///bangku kiri
@@ -194,10 +195,10 @@ void tampil(void)
     ///atas bangku
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
-    glVertex3f(-59.0, -10.0, 57.0); //kiri bawah
-    glVertex3f(-46.0, -10.0, 57.0); //kanan bawah
-    glVertex3f(-46.0, -10.0, -67.0); //kanan atas
-    glVertex3f(-59.0, -10.0, -67.0); //kiri atas
+    glVertex3f(-59.0, -15.0, 57.0); //kiri bawah
+    glVertex3f(-46.0, -15.0, 57.0); //kanan bawah
+    glVertex3f(-46.0, -15.0, -67.0); //kanan atas
+    glVertex3f(-59.0, -15.0, -67.0); //kiri atas
     glEnd();
 
     ///bawah bangku
@@ -213,17 +214,17 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
     glVertex3f(-46.0, -25.0, 57.0); //kiri bawah
-    glVertex3f(-46.0, -10.0, 57.0); //kanan bawah
-    glVertex3f(-46.0, -10.0, -67.0); //kanan atas
+    glVertex3f(-46.0, -15.0, 57.0); //kanan bawah
+    glVertex3f(-46.0, -15.0, -67.0); //kanan atas
     glVertex3f(-46.0, -25.0, -67.0); //kiri atas
     glEnd();
 
     ///bangku kanan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(-59.0, -25.0, 57.0); //kiri bawah
-    glVertex3f(-59.0, -10.0, 57.0); //kanan bawah
-    glVertex3f(-59.0, -10.0, -67.0); //kanan atas
+    glVertex3f(-59.0, -15.0, 57.0); //kanan bawah
+    glVertex3f(-59.0, -15.0, -67.0); //kanan atas
     glVertex3f(-59.0, -25.0, -67.0); //kiri atas
     glEnd();
 
@@ -231,8 +232,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
     glVertex3f(-46.0, -25.0, 57.0); //kiri bawah
-    glVertex3f(-46.0, -10.0, 57.0); //kanan bawah
-    glVertex3f(-59.0, -10.0, 57.0); //kanan atas
+    glVertex3f(-46.0, -15.0, 57.0); //kanan bawah
+    glVertex3f(-59.0, -15.0, 57.0); //kanan atas
     glVertex3f(-59.0, -25.0, 57.0); //kiri atas
     glEnd();
 
@@ -240,8 +241,8 @@ void tampil(void)
      glBegin(GL_QUADS);
     glColor3f(1,1,1);
     glVertex3f(-46.0, -25.0, -67.0); //kiri bawah
-    glVertex3f(-46.0, -10.0, -67.0); //kanan bawah
-    glVertex3f(-59.0, -10.0, -67.0); //kanan atas
+    glVertex3f(-46.0, -15.0, -67.0); //kanan bawah
+    glVertex3f(-59.0, -15.0, -67.0); //kanan atas
     glVertex3f(-59.0, -25.0, -67.0); //kiri atas
     glEnd();
 
@@ -249,10 +250,10 @@ void tampil(void)
 
     //bangku depan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(10.0, -25.0, 47.0); //kiri bawah
-    glVertex3f(10.0, -10.0, 47.0); //kanan bawah
-    glVertex3f(-45.0, -10.0, 47.0); //kanan atas
+    glVertex3f(10.0, -15.0, 47.0); //kanan bawah
+    glVertex3f(-45.0, -15.0, 47.0); //kanan atas
     glVertex3f(-45.0, -25.0, 47.0); //kiri atas
     glEnd();
 
@@ -260,18 +261,18 @@ void tampil(void)
      glBegin(GL_QUADS);
     glColor3f(1,1,1);
     glVertex3f(10.0, -25.0, 57.0); //kiri bawah
-    glVertex3f(10.0, -10.0, 57.0); //kanan bawah
-    glVertex3f(-45.0, -10.0, 57.0); //kanan atas
+    glVertex3f(10.0, -15.0, 57.0); //kanan bawah
+    glVertex3f(-45.0, -15.0, 57.0); //kanan atas
     glVertex3f(-45.0, -25.0, 57.0); //kiri atas
     glEnd();
 
     ///atas bangku
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
-    glVertex3f(10.0, -10.0, 47.0); //kiri bawah
-    glVertex3f(-45.0, -10.0, 47.0); //kanan bawah
-    glVertex3f(-45.0, -10.0, 57.0); //kanan atas
-    glVertex3f(10.0, -10.0, 57.0); //kiri atas
+    glVertex3f(10.0, -15.0, 47.0); //kiri bawah
+    glVertex3f(-45.0, -15.0, 47.0); //kanan bawah
+    glVertex3f(-45.0, -15.0, 57.0); //kanan atas
+    glVertex3f(10.0, -15.0, 57.0); //kiri atas
     glEnd();
 
     ///bawah bangku
@@ -287,8 +288,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
     glVertex3f(10.0, -25.0, 47.0); //kiri bawah
-    glVertex3f(10.0, -10.0, 47.0); //kanan bawah
-    glVertex3f(10.0, -10.0, 57.0); //kanan atas
+    glVertex3f(10.0, -15.0, 47.0); //kanan bawah
+    glVertex3f(10.0, -15.0, 57.0); //kanan atas
     glVertex3f(10.0, -25.0, 57.0); //kiri atas
     glEnd();
 
@@ -296,8 +297,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
     glVertex3f(-45.0, -25.0, 47.0); //kiri bawah
-    glVertex3f(-45.0, -10.0, 47.0); //kanan bawah
-    glVertex3f(-45.0, -10.0, 57.0); //kanan atas
+    glVertex3f(-45.0, -15.0, 47.0); //kanan bawah
+    glVertex3f(-45.0, -15.0, 57.0); //kanan atas
     glVertex3f(-45.0, -25.0, 57.0); //kiri atas
     glEnd();
 
@@ -305,10 +306,10 @@ void tampil(void)
 
     // bangku dpn
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(-45.0, -25.0, -57.0); //kiri bawah
-    glVertex3f(-45.0, -10.0, -57.0); //kanan bawah
-    glVertex3f(10.0, -10.0, -57.0); //kanan atas
+    glVertex3f(-45.0, -15.0, -57.0); //kanan bawah
+    glVertex3f(10.0, -15.0, -57.0); //kanan atas
     glVertex3f(10.0, -25.0, -57.0); //kiri atas
     glEnd();
 
@@ -316,8 +317,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
     glVertex3f(10.0, -25.0, -67.0); //kiri bawah
-    glVertex3f(10.0, -10.0, -67.0); //kanan bawah
-    glVertex3f(-45.0, -10.0, -67.0); //kanan atas
+    glVertex3f(10.0, -15.0, -67.0); //kanan bawah
+    glVertex3f(-45.0, -15.0, -67.0); //kanan atas
     glVertex3f(-45.0, -25.0, -67.0); //kiri atas
     glEnd();
 
@@ -325,8 +326,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
     glVertex3f(-45.0, -25.0, -57.0); //kiri bawah
-    glVertex3f(-45.0, -10.0, -57.0); //kanan bawah
-    glVertex3f(-45.0, -10.0, -67.0); //kanan atas
+    glVertex3f(-45.0, -15.0, -57.0); //kanan bawah
+    glVertex3f(-45.0, -15.0, -67.0); //kanan atas
     glVertex3f(-45.0, -25.0, -67.0); //kiri atas
     glEnd();
 
@@ -334,8 +335,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
     glVertex3f(10.0, -25.0, -57.0); //kiri bawah
-    glVertex3f(10.0, -10.0, -57.0); //kanan bawah
-    glVertex3f(10.0, -10.0, -67.0); //kanan atas
+    glVertex3f(10.0, -15.0, -57.0); //kanan bawah
+    glVertex3f(10.0, -15.0, -67.0); //kanan atas
     glVertex3f(10.0, -25.0, -67.0); //kiri atas
     glEnd();
 
@@ -351,16 +352,16 @@ void tampil(void)
     ///atas bangku
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
-    glVertex3f(10.0, -10.0, -57.0); //kiri bawah
-    glVertex3f(-45.0, -10.0, -57.0); //kanan bawah
-    glVertex3f(-45.0, -10.0, -67.0); //kanan atas
-    glVertex3f(10.0, -10.0, -67.0); //kiri atas
+    glVertex3f(10.0, -15.0, -57.0); //kiri bawah
+    glVertex3f(-45.0, -15.0, -57.0); //kanan bawah
+    glVertex3f(-45.0, -15.0, -67.0); //kanan atas
+    glVertex3f(10.0, -15.0, -67.0); //kiri atas
     glEnd();
 
     ///bangku blkng 2
     //bangku depan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(24.0, -25.0, -67.2); //kiri bawah
     glVertex3f(24.0, -4.0, -67.2); //kanan bawah
     glVertex3f(-59.0, -4.0, -67.2); //kanan atas
@@ -416,7 +417,7 @@ void tampil(void)
 
     //bangku depan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(24.0, -25.0, 57.2); //kiri bawah
     glVertex3f(24.0, -4.0, 57.2); //kanan bawah
     glVertex3f(-59.0, -4.0, 57.2); //kanan atas
@@ -490,7 +491,7 @@ void tampil(void)
 
     //bangku kanan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(-59.2, -25.0, 67.2); //kiri bawah
     glVertex3f(-59.2, -4.0, 67.2); //kanan bawah
     glVertex3f(-59.2, -4.0, -77.2); //kanan atas
@@ -528,7 +529,7 @@ void tampil(void)
 
     ///bangku kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(24.2, -25.0, 67.0); //kiri bawah
     glVertex3f(24.2, -4.0, 67.0); //kanan bawah
     glVertex3f(24.2, -4.0, -77.0); //kanan atas
@@ -584,7 +585,7 @@ void tampil(void)
 
     ///bangku kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(35.4, -25.0, 77.0); //kiri bawah
     glVertex3f(35.4, 4.0, 77.0); //kanan bawah
     glVertex3f(35.4, 4.0, -87.0); //kanan atas
@@ -620,7 +621,7 @@ void tampil(void)
 
     //bangku dpn
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(45.4, -25.0, 77.0); //kiri bawah
     glVertex3f(45.4, 4.0, 77.0); //kanan bawah
     glVertex3f(35.4, 4.0, 77.0); //kanan atas
@@ -639,7 +640,7 @@ void tampil(void)
     ///bangku kiri 3
     //atas bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(1,1,1.1);
     glVertex3f(-70.4, 4.0, 77.4); //kiri bawah
     glVertex3f(-80.4, 4.0, 77.4); //kanan bawah
     glVertex3f(-80.4, 4.0, -87.4); //kanan atas
@@ -675,7 +676,7 @@ void tampil(void)
 
     ///bangku kanan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(-70.4, -25.0, 77.4); //kiri bawah
     glVertex3f(-70.4, 4.0, 77.4); //kanan bawah
     glVertex3f(-70.4, 4.0, -87.4); //kanan atas
@@ -703,7 +704,7 @@ void tampil(void)
 
     //bangku depan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(35.0, -25.0, 67.4); //kiri bawah
     glVertex3f(35.0, 4.0, 67.4); //kanan bawah
     glVertex3f(-70.0, 4.0, 67.4); //kanan atas
@@ -749,7 +750,7 @@ void tampil(void)
     ///bangku blkng 3
     //bangku depan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(35.0, -25.0, -77.4); //kiri bawah
     glVertex3f(35.0, 4.0, -77.4); //kanan bawah
     glVertex3f(-70.0, 4.0, -77.4); //kanan atas
@@ -804,7 +805,7 @@ void tampil(void)
     ///bangku belakang 4
     //bangku depan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(55.0, -25.0, -88.0); //kiri bawah
     glVertex3f(55.0, 12.0, -88.0); //kanan bawah
     glVertex3f(-90.0, 12.0, -88.0); //kanan atas
@@ -868,7 +869,7 @@ void tampil(void)
 
     //bangku depan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(55.0, -25.0, 78.0); //kiri bawah
     glVertex3f(55.0, 12.0, 78.0); //kanan bawah
     glVertex3f(-90.0, 12.0, 78.0); //kanan atas
@@ -932,7 +933,7 @@ void tampil(void)
 
     //bangku kanan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(-80.5, -25.0, 77.0); //kiri bawah
     glVertex3f(-80.5, 12.0, 77.0); //kanan bawah
     glVertex3f(-80.5, 12.0, -87.0); //kanan atas
@@ -966,9 +967,9 @@ void tampil(void)
     glVertex3f(-90.0, -25.0, -87.0); //kiri atas
     glEnd();
 
-    ///bangku kanan 3
+    ///bangku kanan 4
 
-    //bangku kiri
+    //bangku kanan
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
     glVertex3f(55.0, -25.0, 77.0); //kiri bawah
@@ -979,7 +980,7 @@ void tampil(void)
 
     //bangku kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0,0,0);
     glVertex3f(46.0, -25.0, 77.0); //kiri bawah
     glVertex3f(46.0, 12.0, 77.0); //kanan bawah
     glVertex3f(46.0, 12.0, -87.0); //kanan atas
@@ -1027,8 +1028,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(65.0, -25.0, 97.0); //kiri bawah
-    glVertex3f(65.0, 18.0, 97.0); //kanan bawah
-    glVertex3f(65.0, 18.0, -107.0); //kanan atas
+    glVertex3f(65.0, 24.0, 97.0); //kanan bawah
+    glVertex3f(65.0, 24.0, -107.0); //kanan atas
     glVertex3f(65.0, -25.0, -107.0); //kiri atas
     glEnd();
 
@@ -1036,18 +1037,18 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(55.4, -25.0, 97.0); //kiri bawah
-    glVertex3f(55.4, 18.0, 97.0); //kanan bawah
-    glVertex3f(55.4, 18.0, -107.0); //kanan atas
+    glVertex3f(55.4, 24.0, 97.0); //kanan bawah
+    glVertex3f(55.4, 24.0, -107.0); //kanan atas
     glVertex3f(55.4, -25.0, -107.0); //kiri atas
     glEnd();
 
     //atas bangku
     glBegin(GL_QUADS);
-    glColor3f(0,0,0);
-    glVertex3f(55.4, 18.0, 97.0); //kiri bawah
-    glVertex3f(65.0, 18.0, 97.0); //kanan bawah
-    glVertex3f(65.0, 18.0, -107.0); //kanan atas
-    glVertex3f(55.4, 18.0, -107.0); //kiri atas
+    glColor3f(1,1,1);
+    glVertex3f(55.4, 24.0, 97.0); //kiri bawah
+    glVertex3f(65.0, 24.0, 97.0); //kanan bawah
+    glVertex3f(65.0, 24.0, -107.0); //kanan atas
+    glVertex3f(55.4, 24.0, -107.0); //kiri atas
     glEnd();
 
     //bwh bangku
@@ -1063,8 +1064,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(55.4, -25.0, 97.0); //kiri bawah
-    glVertex3f(55.4, 18.0, 97.0); //kanan bawah
-    glVertex3f(65.0, 18.0, 97.0); //kanan atas
+    glVertex3f(55.4, 24.0, 97.0); //kanan bawah
+    glVertex3f(65.0, 24.0, 97.0); //kanan atas
     glVertex3f(65.0, -25.0, 97.0); //kiri atas
     glEnd();
 
@@ -1072,19 +1073,19 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(55.4, -25.0, -107.0); //kiri bawah
-    glVertex3f(55.4, 18.0, -107.0); //kanan bawah
-    glVertex3f(65.0, 18.0, -107.0); //kanan atas
+    glVertex3f(55.4, 24.0, -107.0); //kanan bawah
+    glVertex3f(65.0, 24.0, -107.0); //kanan atas
     glVertex3f(65.0, -25.0, -107.0); //kiri atas
     glEnd();
 
     ///bangku kiri 5
     //atas bangku
     glBegin(GL_QUADS);
-    glColor3f(0,0,0);
-    glVertex3f(-90.5, 18.0, 97.0); //kiri bawah
-    glVertex3f(-100.0, 18.0, 97.0); //kanan bawah
-    glVertex3f(-100.0, 18.0, -107.0); //kanan atas
-    glVertex3f(-90.5, 18.0, -107.0); //kiri atas
+    glColor3f(1,1,1);
+    glVertex3f(-90.5, 24.0, 97.0); //kiri bawah
+    glVertex3f(-100.0, 24.0, 97.0); //kanan bawah
+    glVertex3f(-100.0, 24.0, -107.0); //kanan atas
+    glVertex3f(-90.5, 24.0, -107.0); //kiri atas
     glEnd();
 
     //bawah bangku
@@ -1100,8 +1101,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(-90.5, -25.0, -107.0); //kiri bawah
-    glVertex3f(-90.5, 18.0, -107.0); //kanan bawah
-    glVertex3f(-100.0, 18.0, -107.0); //kanan atas
+    glVertex3f(-90.5, 24.0, -107.0); //kanan bawah
+    glVertex3f(-100.0, 24.0, -107.0); //kanan atas
     glVertex3f(-100.0, -25.0, -107.0); //kiri atas
     glEnd();
 
@@ -1109,8 +1110,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(-90.5, -25.0, 97.0); //kiri bawah
-    glVertex3f(-90.5, 18.0, 97.0); //kanan bawah
-    glVertex3f(-100.0, 18.0, 97.0); //kanan atas
+    glVertex3f(-90.5, 24.0, 97.0); //kanan bawah
+    glVertex3f(-100.0, 24.0, 97.0); //kanan atas
     glVertex3f(-100.0, -25.0, 97.0); //kiri atas
     glEnd();
 
@@ -1118,8 +1119,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(-90.5, -25.0, 97.0); //kiri bawah
-    glVertex3f(-90.5, 18.0, 97.0); //kanan bawah
-    glVertex3f(-90.5, 18.0, -107.0); //kanan atas
+    glVertex3f(-90.5, 24.0, 97.0); //kanan bawah
+    glVertex3f(-90.5, 24.0, -107.0); //kanan atas
     glVertex3f(-90.5, -25.0, -107.0); //kiri atas
     glEnd();
 
@@ -1127,8 +1128,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(-100.0, -25.0, 97.0); //kiri bawah
-    glVertex3f(-100.0, 18.0, 97.0); //kanan bawah
-    glVertex3f(-100.0, 18.0, -107.0); //kanan atas
+    glVertex3f(-100.0, 24.0, 97.0); //kanan bawah
+    glVertex3f(-100.0, 24.0, -107.0); //kanan atas
     glVertex3f(-100.0, -25.0, -107.0); //kiri atas
     glEnd();
 
@@ -1137,8 +1138,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(55.0, -25.0, 97.0); //kiri bawah
-    glVertex3f(55.0, 18.0, 97.0); //kanan bawah
-    glVertex3f(-90.0, 18.0, 97.0); //kanan atas
+    glVertex3f(55.0, 24.0, 97.0); //kanan bawah
+    glVertex3f(-90.0, 24.0, 97.0); //kanan atas
     glVertex3f(-90.0, -25.0, 97.0); //kiri atas
     glEnd();
 
@@ -1146,8 +1147,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(55.0, -25.0, 88.4); //kiri bawah
-    glVertex3f(55.0, 18.0, 88.4); //kanan bawah
-    glVertex3f(-90.0, 18.0, 88.4); //kanan atas
+    glVertex3f(55.0, 24.0, 88.4); //kanan bawah
+    glVertex3f(-90.0, 24.0, 88.4); //kanan atas
     glVertex3f(-90.0, -25.0, 88.4); //kiri atas
     glEnd();
 
@@ -1155,8 +1156,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(-90.0, -25.0, 88.4); //kiri bawah
-    glVertex3f(-90.0, 18.0, 88.4); //kanan bawah
-    glVertex3f(-90.0, 18.0, 97.0); //kanan atas
+    glVertex3f(-90.0, 24.0, 88.4); //kanan bawah
+    glVertex3f(-90.0, 24.0, 97.0); //kanan atas
     glVertex3f(-90.0, -25.0, 97.0); //kiri atas
     glEnd();
 
@@ -1164,8 +1165,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(55.0, -25.0, 88.4); //kiri bawah
-    glVertex3f(55.0, 18.0, 88.4); //kanan bawah
-    glVertex3f(55.0, 18.0, 97.0); //kanan atas
+    glVertex3f(55.0, 24.0, 88.4); //kanan bawah
+    glVertex3f(55.0, 24.0, 97.0); //kanan atas
     glVertex3f(55.0, -25.0, 97.0); //kiri atas
     glEnd();
 
@@ -1180,11 +1181,11 @@ void tampil(void)
 
     //atas bangku
     glBegin(GL_QUADS);
-    glColor3f(0,0,0);
-    glVertex3f(55.0, 18.0, 88.4); //kiri bawah
-    glVertex3f(-90.0, 18.0, 88.4); //kanan bawah
-    glVertex3f(-90.0, 18.0, 97.0); //kanan atas
-    glVertex3f(55.0, 18.0, 97.0); //kiri atas
+    glColor3f(1,1,1);
+    glVertex3f(55.0, 24.0, 88.4); //kiri bawah
+    glVertex3f(-90.0, 24.0, 88.4); //kanan bawah
+    glVertex3f(-90.0, 24.0, 97.0); //kanan atas
+    glVertex3f(55.0, 24.0, 97.0); //kiri atas
     glEnd();
 
     ///bangku belakang 5
@@ -1192,8 +1193,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(55.0, -25.0, -98.4); //kiri bawah
-    glVertex3f(55.0, 18.0, -98.4); //kanan bawah
-    glVertex3f(-90.0, 18.0, -98.4); //kanan atas
+    glVertex3f(55.0, 24.0, -98.4); //kanan bawah
+    glVertex3f(-90.0, 24.0, -98.4); //kanan atas
     glVertex3f(-90.0, -25.0, -98.4); //kiri atas
     glEnd();
 
@@ -1201,18 +1202,18 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(55.0, -25.0, -107.0); //kiri bawah
-    glVertex3f(55.0, 18.0, -107.0); //kanan bawah
-    glVertex3f(-90.0, 18.0, -107.0); //kanan atas
+    glVertex3f(55.0, 24.0, -107.0); //kanan bawah
+    glVertex3f(-90.0, 24.0, -107.0); //kanan atas
     glVertex3f(-90.0, -25.0, -107.0); //kiri atas
     glEnd();
 
     //atas bangku
     glBegin(GL_QUADS);
-    glColor3f(0,0,0);
-    glVertex3f(55.0, 18.0, -98.4); //kiri bawah
-    glVertex3f(-90.0, 18.0, -98.4); //kanan bawah
-    glVertex3f(-90.0, 18.0, -107.0); //kanan atas
-    glVertex3f(55.0, 18.0, -107.0); //kiri atas
+    glColor3f(1,1,1);
+    glVertex3f(55.0, 24.0, -98.4); //kiri bawah
+    glVertex3f(-90.0, 24.0, -98.4); //kanan bawah
+    glVertex3f(-90.0, 24.0, -107.0); //kanan atas
+    glVertex3f(55.0, 24.0, -107.0); //kiri atas
     glEnd();
 
     //bawah bangku
@@ -1228,8 +1229,8 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
     glVertex3f(55.0, -25.0, -98.4); //kiri bawah
-    glVertex3f(55.0, 18.0, -98.4); //kanan bawah
-    glVertex3f(55.0, 18.0, -107.0); //kanan atas
+    glVertex3f(55.0, 24.0, -98.4); //kanan bawah
+    glVertex3f(55.0, 24.0, -107.0); //kanan atas
     glVertex3f(55.0, -25.0, -107.0); //kiri atas
     glEnd();
 
@@ -1238,50 +1239,50 @@ void tampil(void)
     glColor3f(0,0,0);
     glVertex3f(-90.0, -25.0, -98.4); //kiri bawah
     glVertex3f(-90.0, 18.0, -98.4); //kanan bawah
-    glVertex3f(-90.0, 18.0, -107.0); //kanan atas
+    glVertex3f(-90.0, 24.0, -107.0); //kanan atas
     glVertex3f(-90.0, -25.0, -107.0); //kiri atas
     glEnd();
 
     ///bangku belakang 6
     //bangku depan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(65.0, -25.0, -107.4); //kiri bawah
-    glVertex3f(65.0, 24.0, -107.4); //kanan bawah
-    glVertex3f(-100.0, 24.0, -107.4); //kanan atas
+    glVertex3f(65.0, 32.0, -107.4); //kanan bawah
+    glVertex3f(-100.0, 32.0, -107.4); //kanan atas
     glVertex3f(-100.0, -25.0, -107.4); //kiri atas
     glEnd();
 
     //bangku blkng
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(65.0, -25.0, -117.0); //kiri bawah
-    glVertex3f(65.0, 24.0, -117.0); //kanan bawah
-    glVertex3f(-100.0, 24.0, -117.0); //kanan atas
+    glVertex3f(65.0, 32.0, -117.0); //kanan bawah
+    glVertex3f(-100.0, 32.0, -117.0); //kanan atas
     glVertex3f(-100.0, -25.0, -117.0); //kiri atas
     glEnd();
 
     //bangku kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-100.0, -25.0, -107.4); //kiri bawah
-    glVertex3f(-100.0, 24.0, -107.4); //kanan bawah
-    glVertex3f(-100.0, 24.0, -117.0); //kanan atas
+    glVertex3f(-100.0, 32.0, -107.4); //kanan bawah
+    glVertex3f(-100.0, 32.0, -117.0); //kanan atas
     glVertex3f(-100.0, -25.0, -117.0); //kiri atas
     glEnd();
 
     //bangku kanan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(65.0, -25.0, -107.4); //kiri bawah
-    glVertex3f(65.0, 24.0, -107.4); //kanan bawah
-    glVertex3f(65.0, 24.0, -117.0); //kanan atas
+    glVertex3f(65.0, 32.0, -107.4); //kanan bawah
+    glVertex3f(65.0, 32.0, -117.0); //kanan atas
     glVertex3f(65.0, -25.0, -117.0); //kiri atas
     glEnd();
 
     //bawah bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(65.0, -25.0, -107.4); //kiri bawah
     glVertex3f(-100.0, -25.0, -107.4); //kanan bawah
     glVertex3f(-100.0, -25.0, -117.0); //kanan atas
@@ -1290,44 +1291,44 @@ void tampil(void)
 
     //atas bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(65.0, 24.0, -107.4); //kiri bawah
-    glVertex3f(-100.0, 24.0, -107.4); //kanan bawah
-    glVertex3f(-100.0, 24.0, -117.0); //kanan atas
-    glVertex3f(65.0, 24.0, -117.0); //kiri atas
+    glColor3f(0.1,0.1,0.5);
+    glVertex3f(65.0, 32.0, -107.4); //kiri bawah
+    glVertex3f(-100.0, 32.0, -107.4); //kanan bawah
+    glVertex3f(-100.0, 32.0, -117.0); //kanan atas
+    glVertex3f(65.0, 32.0, -117.0); //kiri atas
     glEnd();
 
     ///bangku depan 6
     //bangku dpn
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(65.0, -25.0, 97.4); //kiri bawah
-    glVertex3f(65.0, 24.0, 97.4); //kanan bawah
-    glVertex3f(-100.0, 24.0, 97.4); //kanan atas
+    glVertex3f(65.0, 32.0, 97.4); //kanan bawah
+    glVertex3f(-100.0, 32.0, 97.4); //kanan atas
     glVertex3f(-100.0, -25.0, 97.4); //kiri atas
     glEnd();
 
     //bangku blkng
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(65.0, -25.0, 107.0); //kiri bawah
-    glVertex3f(65.0, 24.0, 107.0); //kanan bawah
-    glVertex3f(-100.0, 24.0, 107.0); //kanan atas
+    glVertex3f(65.0, 32.0, 107.0); //kanan bawah
+    glVertex3f(-100.0, 32.0, 107.0); //kanan atas
     glVertex3f(-100.0, -25.0, 107.0); //kiri atas
     glEnd();
 
     //atas bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(65.0, 24.0, 97.4); //kiri bawah
-    glVertex3f(-100.0, 24.0, 97.4); //kanan bawah
-    glVertex3f(-100.0, 24.0, 107.0); //kanan atas
-    glVertex3f(65.0, 24.0, 107.0); //kiri atas
+    glColor3f(0.1,0.1,0.5);
+    glVertex3f(65.0, 32.0, 97.4); //kiri bawah
+    glVertex3f(-100.0, 32.0, 97.4); //kanan bawah
+    glVertex3f(-100.0, 32.0, 107.0); //kanan atas
+    glVertex3f(65.0, 32.0, 107.0); //kiri atas
     glEnd();
 
     //bwh bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(65.0, -25.0, 97.4); //kiri bawah
     glVertex3f(-100.0, -25.0, 97.4); //kanan bawah
     glVertex3f(-100.0, -25.0, 107.0); //kanan atas
@@ -1336,126 +1337,126 @@ void tampil(void)
 
     //bangku kanan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(65.0, -25.0, 97.4); //kiri bawah
-    glVertex3f(65.0, 24.0, 97.4); //kanan bawah
-    glVertex3f(65.0, 24.0, 107.0); //kanan atas
+    glVertex3f(65.0, 32.0, 97.4); //kanan bawah
+    glVertex3f(65.0, 32.0, 107.0); //kanan atas
     glVertex3f(65.0, -25.0, 107.0); //kiri atas
     glEnd();
 
     //bangku kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-100.0, -25.0, 97.4); //kiri bawah
-    glVertex3f(-100.0, 24.0, 97.4); //kanan bawah
-    glVertex3f(-100.0, 24.0, 107.0); //kanan atas
+    glVertex3f(-100.0, 32.0, 97.4); //kanan bawah
+    glVertex3f(-100.0, 32.0, 107.0); //kanan atas
     glVertex3f(-100.0, -25.0, 107.0); //kiri atas
     glEnd();
 
     ///bangku kiri 6
     //atas bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(-100.5, 24.0, 107.0); //kiri bawah
-    glVertex3f(-110.0, 24.0, 107.0); //kanan bawah
-    glVertex3f(-110.0, 24.0, -117.0); //kanan atas
-    glVertex3f(-100.5, 24.0, -117.0); //kiri atas
+    glColor3f(0.1,0.1,0.5);
+    glVertex3f(-100.5, 32.0, 107.0); //kiri bawah
+    glVertex3f(-110.0, 32.0, 107.0); //kanan bawah
+    glVertex3f(-110.0, 32.0, -117.0); //kanan atas
+    glVertex3f(-100.5, 32.0, -117.0); //kiri atas
     glEnd();
 
     //bwh bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-100.5, -25.0, 107.0); //kiri bawah
     glVertex3f(-110.0, -25.0, 107.0); //kanan bawah
     glVertex3f(-110.0, -25.0, -117.0); //kanan atas
     glVertex3f(-100.5, -25.0, -117.0); //kiri atas
     glEnd();
 
-    //bangku kiri
+    //bangku kanan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-100.5, -25.0, 107.0); //kiri bawah
-    glVertex3f(-100.5, 24.0, 107.0); //kanan bawah
-    glVertex3f(-100.5, 24.0, -117.0); //kanan atas
+    glVertex3f(-100.5, 32.0, 107.0); //kanan bawah
+    glVertex3f(-100.5, 32.0, -117.0); //kanan atas
     glVertex3f(-100.5, -25.0, -117.0); //kiri atas
     glEnd();
 
     //bangku kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-110.0, -25.0, 107.0); //kiri bawah
-    glVertex3f(-110.0, 24.0, 107.0); //kanan bawah
-    glVertex3f(-110.0, 24.0, -117.0); //kanan atas
+    glVertex3f(-110.0, 32.0, 107.0); //kanan bawah
+    glVertex3f(-110.0, 32.0, -117.0); //kanan atas
     glVertex3f(-110.0, -25.0, -117.0); //kiri atas
     glEnd();
 
     //bangku depan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-100.5, -25.0, 107.0); //kiri bawah
-    glVertex3f(-100.5, 24.0, 107.0); //kanan bawah
-    glVertex3f(-110.0, 24.0, 107.0); //kanan atas
+    glVertex3f(-100.5, 32.0, 107.0); //kanan bawah
+    glVertex3f(-110.0, 32.0, 107.0); //kanan atas
     glVertex3f(-110.0, -25.0, 107.0); //kiri atas
     glEnd();
 
     //bangku blkng
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-100.5, -25.0, -117.0); //kiri bawah
-    glVertex3f(-100.5, 24.0, -117.0); //kanan bawah
-    glVertex3f(-110.0, 24.0, -117.0); //kanan atas
+    glVertex3f(-100.5, 32.0, -117.0); //kanan bawah
+    glVertex3f(-110.0, 32.0, -117.0); //kanan atas
     glVertex3f(-110.0, -25.0, -117.0); //kiri atas
     glEnd();
 
     ///bangku kanan 6
     //bangku kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(65.4, -25.0, 107.0); //kiri bawah
-    glVertex3f(65.4, 24.0, 107.0); //kanan bawah
-    glVertex3f(65.4, 24.0, -117.0); //kanan atas
+    glVertex3f(65.4, 32.0, 107.0); //kanan bawah
+    glVertex3f(65.4, 32.0, -117.0); //kanan atas
     glVertex3f(65.4, -25.0, -117.0); //kiri atas
     glEnd();
 
     //bangku kanan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.0, -25.0, 107.0); //kiri bawah
-    glVertex3f(75.0, 24.0, 107.0); //kanan bawah
-    glVertex3f(75.0, 24.0, -117.0); //kanan atas
+    glVertex3f(75.0, 32.0, 107.0); //kanan bawah
+    glVertex3f(75.0, 32.0, -117.0); //kanan atas
     glVertex3f(75.0, -25.0, -117.0); //kiri atas
     glEnd();
 
     //bangku blkng
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(65.4, -25.0, -117.0); //kiri bawah
-    glVertex3f(65.4, 24.0, -117.0); //kanan bawah
-    glVertex3f(75.0, 24.0, -117.0); //kanan atas
+    glVertex3f(65.4, 32.0, -117.0); //kanan bawah
+    glVertex3f(75.0, 32.0, -117.0); //kanan atas
     glVertex3f(75.0, -25.0, -117.0); //kiri atas
     glEnd();
 
     //bangku dpn
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(65.4, -25.0, 107.0); //kiri bawah
-    glVertex3f(65.4, 24.0, 107.0); //kanan bawah
-    glVertex3f(75.0, 24.0, 107.0); //kanan atas
+    glVertex3f(65.4, 32.0, 107.0); //kanan bawah
+    glVertex3f(75.0, 32.0, 107.0); //kanan atas
     glVertex3f(75.0, -25.0, 107.0); //kiri atas
     glEnd();
 
     //bwh bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(65.4, 24.0, 107.0); //kiri bawah
-    glVertex3f(75.0, 24.0, 107.0); //kanan bawah
-    glVertex3f(75.0, 24.0, -117.0); //kanan atas
-    glVertex3f(65.4, 24.0, -117.0); //kiri atas
+    glColor3f(0.1,0.1,0.5);
+    glVertex3f(65.4, 32.0, 107.0); //kiri bawah
+    glVertex3f(75.0, 32.0, 107.0); //kanan bawah
+    glVertex3f(75.0, 32.0, -117.0); //kanan atas
+    glVertex3f(65.4, 32.0, -117.0); //kiri atas
     glEnd();
 
     //bwh bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(65.4, -25.0, 107.0); //kiri bawah
     glVertex3f(75.0, -25.0, 107.0); //kanan bawah
     glVertex3f(75.0, -25.0, -117.0); //kanan atas
@@ -1465,7 +1466,7 @@ void tampil(void)
     ///bangku kanan 7
     //bangku kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.4, -25.0, 120.0); //kiri bawah
     glVertex3f(75.4, 32.0, 120.0); //kanan bawah
     glVertex3f(75.4, 32.0, -130.0); //kanan atas
@@ -1474,7 +1475,7 @@ void tampil(void)
 
     //bangku kanan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(85.0, -25.0, 120.0); //kiri bawah
     glVertex3f(85.0, 32.0, 120.0); //kanan bawah
     glVertex3f(85.0, 32.0, -130.0); //kanan atas
@@ -1483,7 +1484,7 @@ void tampil(void)
 
     //bwh bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.4, -25.0, 120.0); //kiri bawah
     glVertex3f(85.0, -25.0, 120.0); //kanan bawah
     glVertex3f(85.0, -25.0, -130.0); //kanan atas
@@ -1492,7 +1493,7 @@ void tampil(void)
 
     //atas bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.4, 32.0, 120.0); //kiri bawah
     glVertex3f(85.0, 32.0, 120.0); //kanan bawah
     glVertex3f(85.0, 32.0, -130.0); //kanan atas
@@ -1501,7 +1502,7 @@ void tampil(void)
 
     //bangku dpn
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.4, -25.0, 120.0); //kiri bawah
     glVertex3f(75.4, 32.0, 120.0); //kanan bawah
     glVertex3f(85.0, 32.0, 120.0); //kanan atas
@@ -1510,7 +1511,7 @@ void tampil(void)
 
     //bangku blkng
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.4, -25.0, -130.0); //kiri bawah
     glVertex3f(75.4, 32.0, -130.0); //kanan bawah
     glVertex3f(85.0, 32.0, -130.0); //kanan atas
@@ -1520,7 +1521,7 @@ void tampil(void)
     ///bangku kiri 7
     //atas bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-110.4, 32.0, 120.0); //kiri bawah
     glVertex3f(-120.0, 32.0, 120.0); //kanan bawah
     glVertex3f(-120.0, 32.0, -130.0); //kanan atas
@@ -1529,7 +1530,7 @@ void tampil(void)
 
     //bawah bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-110.4, -25.0, 120.0); //kiri bawah
     glVertex3f(-120.0, -25.0, 120.0); //kanan bawah
     glVertex3f(-120.0, -25.0, -130.0); //kanan atas
@@ -1538,7 +1539,7 @@ void tampil(void)
 
     //bangku blkng
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-110.4, -25.0, -130.0); //kiri bawah
     glVertex3f(-110.4, 32.0, -130.0); //kanan bawah
     glVertex3f(-120.0, 32.0, -130.0); //kanan atas
@@ -1547,7 +1548,7 @@ void tampil(void)
 
     //bangku dpn
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-110.4, -25.0, 120.0); //kiri bawah
     glVertex3f(-110.4, 32.0, 120.0); //kanan bawah
     glVertex3f(-120.0, 32.0, 120.0); //kanan atas
@@ -1556,7 +1557,7 @@ void tampil(void)
 
     //bangku kanan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-110.4, -25.0, 120.0); //kiri bawah
     glVertex3f(-110.4, 32.0, 120.0); //kanan bawah
     glVertex3f(-110.4, 32.0, -130.0); //kanan atas
@@ -1566,7 +1567,7 @@ void tampil(void)
 
     //bangku kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-120.0, -25.0, 120.0); //kiri bawah
     glVertex3f(-120.0, 32.0, 120.0); //kanan bawah
     glVertex3f(-120.0, 32.0, -130.0); //kanan atas
@@ -1576,7 +1577,7 @@ void tampil(void)
     ///bangku depan 7
     //bangku dpn
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.0, -25.0, 108.0); //kiri bawah
     glVertex3f(75.0, 32.0, 108.0); //kanan bawah
     glVertex3f(-110.0, 32.0, 108.0); //kanan atas
@@ -1585,7 +1586,7 @@ void tampil(void)
 
     //bangku blkng
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.0, -25.0, 120.0); //kiri bawah
     glVertex3f(75.0, 32.0, 120.0); //kanan bawah
     glVertex3f(-110.0, 32.0, 120.0); //kanan atas
@@ -1594,7 +1595,7 @@ void tampil(void)
 
     //bangku kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-110.0, -25.0, 108.0); //kiri bawah
     glVertex3f(-110.0, 32.0, 108.0); //kanan bawah
     glVertex3f(-110.0, 32.0, 120.0); //kanan atas
@@ -1603,7 +1604,7 @@ void tampil(void)
 
     //bangku kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.0, -25.0, 108.0); //kiri bawah
     glVertex3f(75.0, 32.0, 108.0); //kanan bawah
     glVertex3f(75.0, 32.0, 120.0); //kanan atas
@@ -1612,7 +1613,7 @@ void tampil(void)
 
     //bawah bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.0, -25.0, 108.0); //kiri bawah
     glVertex3f(-110.0, -25.0, 108.0); //kanan bawah
     glVertex3f(-110.0, -25.0, 120.0); //kanan atas
@@ -1621,7 +1622,7 @@ void tampil(void)
 
     //bawah bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.0, 32.0, 108.0); //kiri bawah
     glVertex3f(-110.0, 32.0, 108.0); //kanan bawah
     glVertex3f(-110.0, 32.0, 120.0); //kanan atas
@@ -1631,7 +1632,7 @@ void tampil(void)
     ///bangku belakang 7
     //bangku depan
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.0, -25.0, -118.0); //kiri bawah
     glVertex3f(75.0, 32.0, -118.0); //kanan bawah
     glVertex3f(-110.0, 32.0, -118.0); //kanan atas
@@ -1640,7 +1641,7 @@ void tampil(void)
 
     //bangku blkng
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.0, -25.0, -130.0); //kiri bawah
     glVertex3f(75.0, 32.0, -130.0); //kanan bawah
     glVertex3f(-110.0, 32.0, -130.0); //kanan atas
@@ -1649,7 +1650,7 @@ void tampil(void)
 
     //atas bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.0, 32.0, -118.0); //kiri bawah
     glVertex3f(-110.0, 32.0, -118.0); //kanan bawah
     glVertex3f(-110.0, 32.0, -130.0); //kanan atas
@@ -1658,7 +1659,7 @@ void tampil(void)
 
     //bwh bangku
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.0, -25.0, -118.0); //kiri bawah
     glVertex3f(-110.0, -25.0, -118.0); //kanan bawah
     glVertex3f(-110.0, -25.0, -130.0); //kanan atas
@@ -1667,7 +1668,7 @@ void tampil(void)
 
     //bangku kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(75.0, -25.0, -118.0); //kiri bawah
     glVertex3f(75.0, 32.0, -118.0); //kanan bawah
     glVertex3f(75.0, 32.0, -130.0); //kanan atas
@@ -1676,3382 +1677,5320 @@ void tampil(void)
 
     //bangku kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
+    glColor3f(0.1,0.1,0.5);
     glVertex3f(-110.0, -25.0, -118.0); //kiri bawah
     glVertex3f(-110.0, 32.0, -118.0); //kanan bawah
     glVertex3f(-110.0, 32.0, -130.0); //kanan atas
     glVertex3f(-110.0, -25.0, -130.0); //kiri atas
     glEnd();
 
-    ///bangku belakang 8
-    //bangku depan
+
+    ///atap kontol kiri
+    //atap kiri
     glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.0, -25.0, -131.0); //kiri bawah
-    glVertex3f(85.0, 38.0, -131.0); //kanan bawah
-    glVertex3f(-120.0, 38.0, -131.0); //kanan atas
-    glVertex3f(-120.0, -25.0, -131.0); //kiri atas
-    glEnd();
-
-    //bangku depan
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.0, -25.0, -140.0); //kiri bawah
-    glVertex3f(85.0, 38.0, -140.0); //kanan bawah
-    glVertex3f(-120.0, 38.0, -140.0); //kanan atas
-    glVertex3f(-120.0, -25.0, -140.0); //kiri atas
-    glEnd();
-
-    //bangku kiri
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(-120.0, -25.0, -131.0); //kiri bawah
-    glVertex3f(-120.0, 38.0, -131.0); //kanan bawah
-    glVertex3f(-120.0, 38.0, -140.0); //kanan atas
-    glVertex3f(-120.0, -25.0, -140.0); //kiri atas
-    glEnd();
-
-    //bangku kanan
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.0, -25.0, -131.0); //kiri bawah
-    glVertex3f(85.0, 38.0, -131.0); //kanan bawah
-    glVertex3f(85.0, 38.0, -140.0); //kanan atas
-    glVertex3f(85.0, -25.0, -140.0); //kiri atas
-    glEnd();
-
-    //bwh bangku
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.0, -25.0, -131.0); //kiri bawah
-    glVertex3f(-120.0, -25.0, -131.0); //kanan bawah
-    glVertex3f(-120.0, -25.0, -140.0); //kanan atas
-    glVertex3f(85.0, -25.0, -140.0); //kiri atas
-    glEnd();
-
-    //bwh bangku
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.0, 38.0, -131.0); //kiri bawah
-    glVertex3f(-120.0, 38.0, -131.0); //kanan bawah
-    glVertex3f(-120.0, 38.0, -140.0); //kanan atas
-    glVertex3f(85.0, 38.0, -140.0); //kiri atas
-    glEnd();
-
-    ///bangku depan 8
-    //bangku dpn
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.0, -25.0, 121.0); //kiri bawah
-    glVertex3f(85.0, 38.0, 121.0); //kanan bawah
-    glVertex3f(-120.0, 38.0, 121.0); //kanan atas
-    glVertex3f(-120.0, -25.0, 121.0); //kiri atas
-    glEnd();
-
-    //bangku blkng
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.0, -25.0, 130.0); //kiri bawah
-    glVertex3f(85.0, 38.0, 130.0); //kanan bawah
-    glVertex3f(-120.0, 38.0, 130.0); //kanan atas
-    glVertex3f(-120.0, -25.0, 130.0); //kiri atas
-    glEnd();
-
-    //atas bangku
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.0, 38.0, 121.0); //kiri bawah
-    glVertex3f(-120.0, 38.0, 121.0); //kanan bawah
-    glVertex3f(-120.0, 38.0, 130.0); //kanan atas
-    glVertex3f(85.0, 38.0, 130.0); //kiri atas
-    glEnd();
-
-    //bawah bangku
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.0, -25.0, 121.0); //kiri bawah
-    glVertex3f(-120.0, -25.0, 121.0); //kanan bawah
-    glVertex3f(-120.0, -25.0, 130.0); //kanan atas
-    glVertex3f(85.0, -25.0, 130.0); //kiri atas
-    glEnd();
-
-    //bangku kanan
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.0, -25.0, 121.0); //kiri bawah
-    glVertex3f(85.0, 38.0, 121.0); //kanan bawah
-    glVertex3f(85.0, 38.0, 130.0); //kanan atas
-    glVertex3f(85.0, -25.0, 130.0); //kiri atas
-    glEnd();
-
-    //bangku kiri
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(-120.0, -25.0, 121.0); //kiri bawah
-    glVertex3f(-120.0, 38.0, 121.0); //kanan bawah
-    glVertex3f(-120.0, 38.0, 130.0); //kanan atas
-    glVertex3f(-120.0, -25.0, 130.0); //kiri atas
-    glEnd();
-
-    ///bangku kiri 8
-    //atas bangku
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(-120.4, 38.0, 130.0); //kiri bawah
-    glVertex3f(-130.0, 38.0, 130.0); //kanan bawah
-    glVertex3f(-130.0, 38.0, -140.0); //kanan atas
-    glVertex3f(-120.4, 38.0, -140.0); //kiri atas
-    glEnd();
-
-    //bawah bangku
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(-120.4, -25.0, 130.0); //kiri bawah
-    glVertex3f(-130.0, -25.0, 130.0); //kanan bawah
-    glVertex3f(-130.0, -25.0, -140.0); //kanan atas
-    glVertex3f(-120.4, -25.0, -140.0); //kiri atas
-    glEnd();
-
-    //bangku kiri
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(-130.0, -25.0, 130.0); //kiri bawah
-    glVertex3f(-130.0, 38.0, 130.0); //kanan bawah
-    glVertex3f(-130.0, 38.0, -140.0); //kanan atas
-    glVertex3f(-130.0, -25.0, -140.0); //kiri atas
-    glEnd();
-
-    //bangku kanan
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(-120.4, -25.0, 130.0); //kiri bawah
-    glVertex3f(-120.4, 38.0, 130.0); //kanan bawah
-    glVertex3f(-120.4, 38.0, -140.0); //kanan atas
-    glVertex3f(-120.4, -25.0, -140.0); //kiri atas
-    glEnd();
-
-    //bangku depan
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(-120.4, -25.0, 130.0); //kiri bawah
-    glVertex3f(-120.4, 38.0, 130.0); //kanan bawah
-    glVertex3f(-130.0, 38.0, 130.0); //kanan atas
-    glVertex3f(-130.0, -25.0, 130.0); //kiri atas
-    glEnd();
-
-    //bangku blkng
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(-120.4, -25.0, -140.0); //kiri bawah
-    glVertex3f(-120.4, 38.0, -140.0); //kanan bawah
-    glVertex3f(-130.0, 38.0, -140.0); //kanan atas
-    glVertex3f(-130.0, -25.0, -140.0); //kiri atas
-    glEnd();
-
-    ///bangku kanan 8
-    //bangku kiri
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.4, -25.0, 130.0); //kiri bawah
-    glVertex3f(85.4, 38.0, 130.0); //kanan bawah
-    glVertex3f(85.4, 38.0, -140.0); //kanan atas
-    glVertex3f(85.4, -25.0, -140.0); //kiri atas
-    glEnd();
-
-    //bangku kanan
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(95.0, -25.0, 130.0); //kiri bawah
-    glVertex3f(95.0, 38.0, 130.0); //kanan bawah
-    glVertex3f(95.0, 38.0, -140.0); //kanan atas
-    glVertex3f(95.0, -25.0, -140.0); //kiri atas
-    glEnd();
-
-    //bangku blkng
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.4, -25.0, -140.0); //kiri bawah
-    glVertex3f(85.4, 38.0, -140.0); //kanan bawah
-    glVertex3f(95.0, 38.0, -140.0); //kanan atas
-    glVertex3f(95.0, -25.0, -140.0); //kiri atas
-    glEnd();
-
-    //bangku dpn
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.4, -25.0, 130.0); //kiri bawah
-    glVertex3f(85.4, 38.0, 130.0); //kanan bawah
-    glVertex3f(95.0, 38.0, 130.0); //kanan atas
-    glVertex3f(95.0, -25.0, 130.0); //kiri atas
-    glEnd();
-
-    //bawah bangku
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.4, -25.0, 130.0); //kiri bawah
-    glVertex3f(95.0, -25.0, 130.0); //kanan bawah
-    glVertex3f(95.0, -25.0, -140.0); //kanan atas
-    glVertex3f(85.4, -25.0, -140.0); //kiri atas
-    glEnd();
-
-    //bawah bangku
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(85.4, 38.0, 130.0); //kiri bawah
-    glVertex3f(95.0, 38.0, 130.0); //kanan bawah
-    glVertex3f(95.0, 38.0, -140.0); //kanan atas
-    glVertex3f(85.4, 38.0, -140.0); //kiri atas
-    glEnd();
-
-
-    ///tembok kanan
-    //tembok kiri
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(105.5, -25.0, 140.0); //kiri bawah
-    glVertex3f(105.5, 45.0, 140.0); //kanan bawah
-    glVertex3f(105.5, 45.0, -150.0); //kanan atas
-    glVertex3f(105.5, -25.0, -150.0); //kiri atas
-    glEnd();
-
-    //tembok kanan
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(95.5, -25.0, 140.0); //kiri bawah
-    glVertex3f(95.5, 45.0, 140.0); //kanan bawah
-    glVertex3f(95.5, 45.0, -150.0); //kanan atas
-    glVertex3f(95.5, -25.0, -150.0); //kiri atas
-    glEnd();
-
-    //atas tembok
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(95.4, 45.0, 140.0); //kiri bawah
-    glVertex3f(105.5, 45.0, 140.0); //kanan bawah
-    glVertex3f(105.5, 45.0, -150.0); //kanan atas
-    glVertex3f(95.4, 45.0, -150.0); //kiri atas
-    glEnd();
-
-    //bawah tembok
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(95.4, -25.0, 140.0); //kiri bawah
-    glVertex3f(105.5, -25.0, 140.0); //kanan bawah
-    glVertex3f(105.5, -25.0, -150.0); //kanan atas
-    glVertex3f(95.4, -25.0, -150.0); //kiri atas
-    glEnd();
-
-    //tembok dpn
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(95.4, -25.0, 140.0); //kiri bawah
-    glVertex3f(95.4, 45.0, 140.0); //kanan bawah
-    glVertex3f(105.5, 45.0, 140.0); //kanan atas
-    glVertex3f(105.5, -25.0, 140.0); //kiri atas
-    glEnd();
-
-    //tembok blkng
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(95.4, -25.0, -150.0); //kiri bawah
-    glVertex3f(95.4, 45.0, -150.0); //kanan bawah
-    glVertex3f(105.5, 45.0, -150.0); //kanan atas
-    glVertex3f(105.5, -25.0, -150.0); //kiri atas
-    glEnd();
-
-
-    ///tembok kiri
-    //atas tembok
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(-131.0, 45.0, 140.0); //kiri bawah
-    glVertex3f(-140.5, 45.0, 140.0); //kanan bawah
-    glVertex3f(-140.5, 45.0, -150.0); //kanan atas
-    glVertex3f(-131.0, 45.0, -150.0); //kiri atas
-    glEnd();
-
-    //bawah tembok
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(-131.0, -25.0, 140.0); //kiri bawah
-    glVertex3f(-140.5, -25.0, 140.0); //kanan bawah
-    glVertex3f(-140.5, -25.0, -150.0); //kanan atas
-    glVertex3f(-131.0, -25.0, -150.0); //kiri atas
-    glEnd();
-
-    //tembok blkng
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(-131.0, -25.0, -150.0); //kiri bawah
-    glVertex3f(-131.0, 45.0, -150.0); //kanan bawah
-    glVertex3f(-140.5, 45.0, -150.0); //kanan atas
-    glVertex3f(-140.5, -25.0, -150.0); //kiri atas
-    glEnd();
-
-    //tembok dpn
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(-131.0, -25.0, 140.0); //kiri bawah
-    glVertex3f(-131.0, 45.0, 140.0); //kanan bawah
-    glVertex3f(-140.5, 45.0, 140.0); //kanan atas
-    glVertex3f(-140.5, -25.0, 140.0); //kiri atas
-    glEnd();
-
-    //tembok kanan
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(-131.0, -25.0, 140.0); //kiri bawah
-    glVertex3f(-131.0, 45.0, 140.0); //kanan bawah
-    glVertex3f(-131.0, 45.0, -150.0); //kanan atas
-    glVertex3f(-131.0, -25.0, -150.0); //kiri atas
-    glEnd();
-
-    //tembok kiri
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(-140.5, -25.0, 140.0); //kiri bawah
-    glVertex3f(-140.5, 45.0, 140.0); //kanan bawah
-    glVertex3f(-140.5, 45.0, -150.0); //kanan atas
-    glVertex3f(-140.5, -25.0, -150.0); //kiri atas
-    glEnd();
-
-
-    ///tembok depan
-    //tembok blkng
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(95.0, -25.0, 130.2); //kiri bawah
-    glVertex3f(95.0, 45.0, 130.2); //kanan bawah
-    glVertex3f(-130.0, 45.0, 130.2); //kanan atas
-    glVertex3f(-130.0, -25.0, 130.2); //kiri atas
-    glEnd();
-
-    //tembok dpn
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(95.0, -25.0, 140.0); //kiri bawah
-    glVertex3f(95.0, 45.0, 140.0); //kanan bawah
-    glVertex3f(-130.0, 45.0, 140.0); //kanan atas
-    glVertex3f(-130.0, -25.0, 140.0); //kiri atas
-    glEnd();
-
-    //atas tembok
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(95.0, 45.0, 130.2); //kiri bawah
-    glVertex3f(-130.0, 45.0, 130.2); //kanan bawah
-    glVertex3f(-130.0, 45.0, 140.0); //kanan atas
-    glVertex3f(95.0, 45.0, 140.0); //kiri atas
-    glEnd();
-
-    //atas tembok
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(95.0, -25.0, 130.2); //kiri bawah
-    glVertex3f(-130.0, -25.0, 130.2); //kanan bawah
-    glVertex3f(-130.0, -25.0, 140.0); //kanan atas
-    glVertex3f(95.0, -25.0, 140.0); //kiri atas
-    glEnd();
-
-
-    ///tembok belakang
-    //tembok depan
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(95.5, -25.0, -140.2); //kiri bawah
-    glVertex3f(95.5, 45.0, -140.2); //kanan bawah
-    glVertex3f(-130.5, 45.0, -140.2); //kanan atas
-    glVertex3f(-130.5, -25.0, -140.2); //kiri atas
-    glEnd();
-
-    //tembok blkng
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(95.5, -25.0, -150.0); //kiri bawah
-    glVertex3f(95.5, 45.0, -150.0); //kanan bawah
-    glVertex3f(-130.5, 45.0, -150.0); //kanan atas
-    glVertex3f(-130.5, -25.0, -150.0); //kiri atas
-    glEnd();
-
-    //bawah tembok
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(95.5, -25.0, -140.2); //kiri bawah
-    glVertex3f(-130.5, -25.0, -140.2); //kanan bawah
-    glVertex3f(-130.5, -25.0, -150.0); //kanan atas
-    glVertex3f(95.5, -25.0, -150.0); //kiri atas
-    glEnd();
-
-    //atas tembok
-    glBegin(GL_QUADS);
-    glColor3f(0,0,1);
-    glVertex3f(95.5, 45.0, -140.2); //kiri bawah
-    glVertex3f(-130.5, 45.0, -140.2); //kanan bawah
-    glVertex3f(-130.5, 45.0, -150.0); //kanan atas
-    glVertex3f(95.5, 45.0, -150.0); //kiri atas
-    glEnd();
-
-
-    /// atap  stadion (Erits)
-    //atap belakang
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(-130.9, 45.0, -140.0);
-    glVertex3f(95.9, 45.0 , -140.0);
-    glVertex3f(95.9, 45.0, -85);
-    glVertex3f(-130.9, 45.0, -85);
-    glEnd();
-
-    //atap depan
-    glBegin(GL_QUADS);
-    glColor3f(1,1,1);
-    glVertex3f(-130.9, 45.0, 127.0);
-    glVertex3f(95.9, 45.0 , 127.0);
-    glVertex3f(95.9, 45.0, 85);
-    glVertex3f(-130.9, 45.0, 85);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(-120.0, 32.0, 110.0); //kiri bawah
+    glVertex3f(-120.0, 45.0, 110.0); //kanan bawah
+    glVertex3f(-120.0, 45.0, -120.0); //kanan atas
+    glVertex3f(-120.0, 32.0, -120.0); //kiri atas
     glEnd();
 
     //atap kanan
     glBegin(GL_QUADS);
     glColor3f(0.75,0.75,0.75);
-    glVertex3f(-140.9, 45.0, 130.0);
-    glVertex3f(-55.9, 65.0 , 130.0);
-    glVertex3f(-55.9, 65.0, -140.0);
-    glVertex3f(-140.9, 45.0,-140.0);
+    glVertex3f(-115.0, 32.0, 105.0); //kiri bawah
+    glVertex3f(-115.0, 45.0, 105.0); //kanan bawah
+    glVertex3f(-115.0, 45.0, -117.0); //kanan atas
+    glVertex3f(-115.0, 32.0, -117.0); //kiri atas
     glEnd();
 
-    //atap kiri
+    //bangku blkng
     glBegin(GL_QUADS);
     glColor3f(0.75,0.75,0.75);
-    glVertex3f(105.9, 45.0, 130.0);
-    glVertex3f(25.9, 65.0 , 130.0);
-    glVertex3f(25.9, 65.0, -140);
-    glVertex3f(105.9, 45.0,-140);
+    glVertex3f(-105.0, 32.0, 120.0); //kiri bawah
+    glVertex3f(-105.0, 45.0, 120.0); //kanan bawah
+    glVertex3f(-120.0, 45.0, 110.0); //kanan atas
+    glVertex3f(-120.0, 32.0, 110.0); //kiri atas
+    glEnd();
+
+    //bangku dpn
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(-107.0, 32.0, 110.0); //kiri bawah
+    glVertex3f(-107.0, 45.0, 110.0); //kanan bawah
+    glVertex3f(-115.0, 45.0, 105.0); //kanan atas
+    glVertex3f(-115.0, 32.0, 105.0); //kiri atas
+    glEnd();
+
+    //bangku dpn 2
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(-103.0, 32.0, -123.0); //kiri bawah
+    glVertex3f(-103.0, 45.0, -123.0); //kanan bawah
+    glVertex3f(-115.0, 45.0, -117.0); //kanan atas
+    glVertex3f(-115.0, 32.0, -117.0); //kiri atas
+    glEnd();
+
+    //bangku blkng 2
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(-100.0, 32.0, -130.0); //kiri bawah
+    glVertex3f(-100.0, 45.0, -130.0); //kanan bawah
+    glVertex3f(-120.0, 45.0, -120.0); //kanan atas
+    glVertex3f(-120.0, 32.0, -120.0); //kiri atas
+    glEnd();
+
+
+    ///atap kontol depan
+    //atap dpn
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(70.0, 32.0, 110.0); //kiri bawah
+    glVertex3f(70.0, 45.0, 110.0); //kanan bawah
+    glVertex3f(-107.0, 45.0, 110.0); //kanan atas
+    glVertex3f(-107.0, 32.0, 110.0); //kiri atas
+    glEnd();
+
+    //atap kanan dpan
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(70.0, 32.0, 110.0); //kiri bawah
+    glVertex3f(70.0, 45.0, 110.0); //kanan bawah
+    glVertex3f(78.0, 45.0, 102.0); //kanan atas
+    glVertex3f(78.0, 32.0, 102.0); //kiri atas
+    glEnd();
+
+    //atap blkng
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(70.0, 32.0, 120.0); //kiri bawah
+    glVertex3f(70.0, 45.0, 120.0); //kanan bawah
+    glVertex3f(-105.0, 45.0, 120.0); //kanan atas
+    glVertex3f(-105.0, 32.0, 120.0); //kiri atas
+    glEnd();
+
+    //atap kanan blkng
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(70.0, 32.0, 120.0); //kiri bawah
+    glVertex3f(70.0, 45.0, 120.0); //kanan bawah
+    glVertex3f(85.0, 45.0, 110.0); //kanan atas
+    glVertex3f(85.0, 32.0, 110.0); //kiri atas
+    glEnd();
+
+
+    ///atap kontol blkng
+    //atap dpn
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(70.0, 32.0, -123.0); //kiri bawah
+    glVertex3f(70.0, 45.0, -123.0); //kanan bawah
+    glVertex3f(-103.0, 45.0, -123.0); //kanan atas
+    glVertex3f(-103.0, 32.0, -123.0); //kiri atas
+    glEnd();
+
+    //atap blkng
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(73.0, 32.0, -130.0); //kiri bawah
+    glVertex3f(73.0, 45.0, -130.0); //kanan bawah
+    glVertex3f(-100.0, 45.0, -130.0); //kanan atas
+    glVertex3f(-100.0, 32.0, -130.0); //kiri atas
+    glEnd();
+
+
+
+    ///atap kontol kanan
+    //atap miring depan
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(78, 32.0, 102.0); //kiri bawah
+    glVertex3f(78, 45.0, 102.0); //kanan bawah
+    glVertex3f(78, 45.0, -110.0); //kanan atas
+    glVertex3f(78, 32.0, -110.0); //kiri atas
+    glEnd();
+
+    //atap miring blkng
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(73.0, 32.0, -130.0); //kiri bawah
+    glVertex3f(73.0, 45.0, -130.0); //kanan bawah
+    glVertex3f(85.0, 45.0, -115.0); //kanan atas
+    glVertex3f(85.0, 32.0, -115.0); //kiri atas
+    glEnd();
+
+    //atap blkng
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(85, 32.0, 110.0); //kiri bawah
+    glVertex3f(85, 45.0, 110.0); //kanan bawah
+    glVertex3f(85, 45.0, -115.0); //kanan atas
+    glVertex3f(85, 32.0, -115.0); //kiri atas
+    glEnd();
+
+
+    //atap dpan
+    glBegin(GL_QUADS);
+    glColor3f(0.75,0.75,0.75);
+    glVertex3f(70.0, 32.0, -123.0); //kiri bawah
+    glVertex3f(70.0, 45.0, -123.0); //kanan bawah
+    glVertex3f(78.0, 45.0, -110.0); //kanan atas
+    glVertex3f(78.0, 32.0, -110.0); //kiri atas
     glEnd();
 
 
 
 
-    ///bangkubiru
 
+
+    //kursi biru
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-66,-1,63.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-56,-1,63.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-46,-1,63.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-36,-1,63.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-26,-1,63.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-16,-1,63.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-6,-1,63.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-66,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(4,-1,63.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-66,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-63,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-63,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-60,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-60,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-57,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-57,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-54,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-54,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-51,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-51,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-48,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-48,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-45,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-45,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-42,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-42,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-39,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-39,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-30,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-30,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-27,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-27,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-24,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-24,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-21,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-21,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-17,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-17,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-14,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-14,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-11,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-11,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-8,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-8,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-5,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-5,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(4,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(4,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(7,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(7,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(10,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(10,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(13,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(13,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(16,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(16,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(19,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(19,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,43.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,43.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,43.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,38.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,38.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,38.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
 glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(14,-1,63.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,33.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(24,-1,63.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,33.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,33.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,28.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,28.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,28.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,23.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,23.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,23.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,18.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,18.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,18.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,-42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,-42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,-42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,-47.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,-47.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,-47.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,-52.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,-52.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,-52.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,-57.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,-57.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,-57.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,-62.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,-62.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,-62.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,-67.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,-67.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,-67.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,-2,-72.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,-2,-72.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,-2,-72.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    //sebrang
+
+        glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,43.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,43.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,43.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,38.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,38.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,38.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,33.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,33.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,33.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,28.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,28.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,28.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,23.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,23.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,23.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,18.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,18.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,18.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,-42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,-42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,-42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,-47.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,-47.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,-47.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,-52.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,-52.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,-52.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,-57.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,-57.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,-57.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,-62.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,-62.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,-62.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,-67.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,-67.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,-67.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,-2,-72.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-68,-2,-72.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,-2,-72.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    //sebrang 2
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-57,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-57,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-54,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-54,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-51,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-51,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-48,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-48,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-45,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-45,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-42,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-42,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-39,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-39,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-30,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-30,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-27,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-27,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-24,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-24,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-21,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-21,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-17,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-17,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-14,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-14,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-11,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-11,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-8,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-8,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-5,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-5,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(4,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(4,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(7,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(7,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(10,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(10,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(13,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(13,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(16,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(16,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(19,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(19,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,-2,-73.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,-2,-68.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+//krsilantai2
+
+
+
+glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-66,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-66,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
 
 
 glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,-1,53.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-63,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,-1,43.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-63,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,-1,33.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-60,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,-1,23.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,-1,13.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,-1,3.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,-1,-7.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,-1,-17.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,-1,-27.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,-1,-37.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,-1,-47.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,-1,-57.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,-1,-67.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-60,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-66,-1,53.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-66,-1,43.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-57,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-66,-1,33.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-57,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-66,-1,23.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-54,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-66,-1,13.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-54,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-66,-1,3.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-51,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-66,-1,-7.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-66,-1,-17.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-51,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-66,-1,-27.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-48,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-66,-1,-37.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-48,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-66,-1,-47.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-66,-1,-57.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-45,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-66,-1,-67.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-56,-1,-71.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-46,-1,-71.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-36,-1,-71.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-26,-1,-71.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-16,-1,-71.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-45,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-6,-1,-71.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-42,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-42,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-39,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-39,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-30,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-30,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(4,-1,-71.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-27,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(14,-1,-71.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-27,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(24,-1,-71.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-24,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-//kursi biru tingkat2
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(37,6.2,-82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-24,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(27,6.2,-82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-21,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(17,6.2,-82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-21,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(7,6.2,-82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-17,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-3,6.2,-82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-17,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-14,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-14,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-11,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-11,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-8,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-8,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-5,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-5,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(4,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(4,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(7,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(7,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(10,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(10,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(13,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(13,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(16,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(16,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(19,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(19,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
 
    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-13,6.2,-82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-23,6.2,-82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-33,6.2,-82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-43,6.2,-82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-53,6.2,-82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+   glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-63,6.2,-82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-73,6.2,-82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,5,-83.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,-72.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,5,-78.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,-62.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
 
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,-52.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,-42.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,-32.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,-22.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,-12.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,-2.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,8.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,18.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,28.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,38.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,48.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,58.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,6.2,68.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
+    //sebrang 1
 
 
 glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,6.2,73.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-65,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-62,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-62,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(20,6.2,73.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-59,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(10,6.2,73.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-59,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(0,6.2,73.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-56,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-10,6.2,73.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-56,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-20,6.2,73.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-53,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-30,6.2,73.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-53,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-40,6.2,73.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-50,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-50,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-47,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-47,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-44,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-44,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-41,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-41,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-38,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-38,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-29,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-29,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-26,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-26,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-23,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-23,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-20,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-20,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-17,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-17,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-14,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-14,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-11,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-11,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-8,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-8,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-5,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-5,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(4,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(4,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(7,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(7,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(10,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(10,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(13,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(13,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(16,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(16,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(19,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(19,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(31,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,5,76.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,5,71.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    //sebrang kanan kiri
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,63.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,37.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,37.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,37.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,32.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,32.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,32.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+     glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+ glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+       glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,-40.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,-40.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,-40.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,-45.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,-45.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,-45.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,-50.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,-50.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,-50.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,-55.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,-55.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,-55.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,-60.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,-60.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,-60.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,-65.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,-65.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,-65.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(44,5,-70.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(41,5,-70.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(38,5,-70.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+//sebrang kanan kiri
+glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,-70.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,-70.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,-70.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,-65.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,-65.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,-65.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,-60.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,-60.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,-60.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,-55.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,-55.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,-55.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,-50.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,-50.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,-50.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,-45.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,-45.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,-45.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,-40.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,-40.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,-40.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
 glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-50,6.2,73.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-60,6.2,73.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-70,6.2,73.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,6.2,63.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,6.2,53.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,6.2,43.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,6.2,33.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,6.2,23.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,6.2,13.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,6.2,3.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,6.2,-7.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,6.2,-17.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,6.2,-27.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,6.2,-37.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,6.2,-47.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,6.2,-57.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,6.2,-69.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    //bangku lantai 3
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,14.5,-89.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-65,14.5,-89.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-55,14.5,-89.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-45,14.5,-89.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-35,14.5,-89.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-25,14.5,-89.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-15,14.5,-89.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-5,14.5,-89.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(5,14.5,-89.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(15,14.5,-89.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(25,14.5,-89.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(35,14.5,-89.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(45,14.5,-89.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,-79.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,-69.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,-59.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,-49.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,-39.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,-29.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,-19.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,-9.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,1.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,11.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,21.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,31.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,41.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,51.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,61.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,71.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,14.5,81.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,14.5,81.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,14.5,81.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(20,14.5,81.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(10,14.5,81.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(0,14.5,81.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-10,14.5,81.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-20,14.5,81.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-30,14.5,81.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-40,14.5,81.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-50,14.5,81.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-60,14.5,81.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-70,14.5,81.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-80,14.5,81.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,71.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,61.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,51.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,41.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,31.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,21.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,11.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,1.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,-9.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,-19.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,-29.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,-39.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,-49.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,-59.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,-69.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,-79.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,14.5,-89.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    ///bangku biru ke 4
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-103,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-93,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-83,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-73,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-63,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-53,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-43,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-33,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,32.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-23,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,32.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-13,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,32.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-3,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,37.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(7,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,37.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(17,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,37.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(27,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(37,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(47,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(57,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,56.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(67,26.4,-112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,56.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,-102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,56.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
      glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,-92.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-77,5,61.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-74,5,61.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-71,5,61.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+//lantai 3
+
+ glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,53.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,53.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,53.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
      glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,-82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,40.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,-72.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,40.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,-62.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,40.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,-52.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,35.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,-42.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,35.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,-32.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,35.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,-22.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,30.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,-12.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,30.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,-2.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,30.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,8.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,25.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,18.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,25.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,28.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,25.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,38.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,20.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,48.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,20.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,58.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,20.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,68.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,15.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,78.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,15.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,88.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,15.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(69.8,26.4,98.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(59.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(49.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(39.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(29.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(19.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(9.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-1.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-11.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-21.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-31.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-41.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-51.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-61.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-71.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-81.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-91.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-101.8,26.4,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,92.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,-37.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,-37.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,72.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,-37.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,62.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,-42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,52.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,-42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,42.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,-42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,32.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,22.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,-47.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,12.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,-47.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,2.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,-47.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,-8.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,-52.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,-18.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,-52.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,-28.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,-52.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,-38.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,-57.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,-48.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,-58.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,-57.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,-68.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,-57.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,-78.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-81,14,-62.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,-88.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105.4,26.4,-99.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-///bangku biru ke 5
-
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-113,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-84,14,-62.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-103,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-87,14,-62.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-93,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
 
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-83,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-73,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-63,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
-    glPopMatrix();
+//sebrang 1
 
 glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-53,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-43,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-33,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,58.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
+
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-23,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,53.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-13,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,53.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-3,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,53.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+     glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,40.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(7,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,40.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(17,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,40.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(27,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,35.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(37,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,35.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(47,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,35.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(57,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,30.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(67,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,30.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(77,34.0,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,30.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,-114.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,25.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,-104.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,25.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,-94.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,25.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,-84.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,20.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,-74.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,20.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,-64.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,20.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,-54.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,15.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,-44.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,15.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,-34.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,15.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
+
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,-24.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,-14.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,-4.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,3.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
+
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,6.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,16.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,26.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,-2.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,36.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,46.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,56.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,-7.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
+
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,66.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,76.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,86.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,-12.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
+
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,96.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,106.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(81,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,-17.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(71,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(61,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(51,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,-22.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
+
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(41,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(31,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(21,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,-27.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
+
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(11,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,-37.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(1,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,-37.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-9,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,-37.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-19,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,-42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-29,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,-42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-39,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,-42.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-49,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,-47.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-59,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,-47.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-69,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,-47.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-79,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,-52.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-89,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,-52.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-99,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,-52.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-109,34.0,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,-57.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
-
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,106.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,-57.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,96.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,-57.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,86.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(46,14,-62.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,76.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(49,14,-62.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,66.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(52,14,-62.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,56.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    //sebrang 2
+     glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(16,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,46.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(19,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,36.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,26.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(16,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,16.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(19,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,6.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,-4.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(13,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,-14.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(10,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,-24.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(7,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,-34.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(13,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,-44.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(10,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,-54.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(7,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-    glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,-64.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+     glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,-74.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,-84.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,-94.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,-104.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,34.0,-114.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-///lantaike5
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+   glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(4,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,-124.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(4,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,-114.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+     glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-4,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,-104.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-4,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,-94.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-7,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,-84.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-7,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,-74.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-10,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,-64.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-10,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,-54.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-13,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,-44.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-13,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,-34.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-16,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,-24.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-16,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,-14.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-19,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,-4.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-19,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,6.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-22,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,16.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-22,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,26.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-25,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,36.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-25,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,46.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-28,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,56.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-28,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,66.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-37,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,76.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-37,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,86.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-40,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,96.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-40,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,106.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-43,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-125,40.8,116.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-43,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-115,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-46,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-105,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-46,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-95,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-49,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-85,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-49,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-75,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-52,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-65,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-52,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-55,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-55,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-45,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-55,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-35,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-58,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-25,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-58,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-15,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-5,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(5,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-64,14,-92.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(15,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-64,14,-87.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
+
+    //sebrang 2
+     glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(16,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(25,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(35,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(19,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(45,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(55,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(16,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(65,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(19,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(75,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(85,40.8,122.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(13,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,112.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(10,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,102.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(7,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,92.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(13,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,82.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(10,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,72.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(7,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+     glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,62.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,52.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,42.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(25,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,32.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(22,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,22.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(28,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+
+   glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(4,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,12.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(4,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
+
+     glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-4,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,2.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-4,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,-8.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-7,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,-18.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-7,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,-28.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-10,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,-38.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-10,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,-48.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-13,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,-58.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-13,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,-68.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-16,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,-78.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-16,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,-88.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-19,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-19,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
+    glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,-98.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-22,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,-108.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-22,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,-118.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-25,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,-128.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-25,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(90,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-28,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(80,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-28,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(70,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-37,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(60,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-37,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(50,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-40,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(40,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-40,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(30,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-43,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
-glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(20,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glPushMatrix();
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-43,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(10,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-46,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(0,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-46,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-10,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-49,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-20,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-49,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-30,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-52,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-40,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-52,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-50,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-55,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-60,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-55,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-70,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-58,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-80,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-58,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-90,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-100,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-61,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-110,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-64,14,85.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(0,0,1);
-    glTranslatef(-120,40.8,-134.5);
-    glScalef(1,0.5,1);
-    glutSolidCube(8);
+    glColor3f(0.1,0.1,0.5);
+    glTranslatef(-64,14,80.5);
+    glScalef(1,0.5,2);
+    glutSolidCube(2);
     glPopMatrix();
+
 
 
 
@@ -6231,8 +8170,6 @@ glPushMatrix();
     glVertex3f(-50.0, 38.0, -57.0); //kanan atas
     glVertex3f(-50.0, 37.0, -57.0); //kiri atas
     glEnd();
-
-
 
 
 
