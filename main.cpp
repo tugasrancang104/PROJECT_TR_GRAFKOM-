@@ -1,4 +1,3 @@
-
 #include <windows.h>
 #ifdef APPLE
 #include <GLUT/glut.h>
@@ -36,8 +35,9 @@ void ukuran(int lebar, int tinggi)
 void init(void)
 {
     glClearColor(0.0, 0.0, 0.0, 0.0);
+    glViewport(0,0,1000,600);
     glMatrixMode(GL_PROJECTION);
-     glEnable(GL_LIGHTING);
+    glEnable(GL_LIGHTING);
     glEnable(GL_COLOR_MATERIAL);
     glEnable(GL_LIGHT0);
     glEnable(GL_DEPTH_TEST);
@@ -1750,7 +1750,7 @@ void tampil(void)
     glEnd();
 
 
-    ///atap kontol depan
+    ///atapp depan
     //atap dpn
     glBegin(GL_QUADS);
     glColor3f(0.75,0.75,0.75);
@@ -1797,7 +1797,7 @@ void tampil(void)
     glEnd();
 
 
-    ///atap kontol blkng
+    ///atapp  blkng
     //atap dpn
     glBegin(GL_QUADS);
     glColor3f(0.75,0.75,0.75);
@@ -1827,7 +1827,7 @@ void tampil(void)
 
 
 
-    ///atap kontol kanan
+    ///atapp kanan
     //atap miring depan
     glBegin(GL_QUADS);
     glColor3f(0.75,0.75,0.75);
